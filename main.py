@@ -4,6 +4,7 @@ import os
 from db.chat_users_db import *
 from botrequests.city_id_request import search_city
 from botrequests.low_high_price import hotels_info_for_low_high_price
+from botrequests.best_deal import hotels_info_for_bestdeal
 from botrequests.photo_request import get_photo
 from telebot import types
 from dotenv import load_dotenv
@@ -19,7 +20,7 @@ bot = telebot.TeleBot(os.getenv('TOKEN'))
 @logger.catch
 @bot.message_handler(commands=['start'])
 def start(message: types.Message) -> None:
-    """/lowprice
+    """
     Функция. Выполняет команду /start.
     Приветствует пользователя и знакомит его со списком доступных команд.
     :param message: сообщение пользователя с командной /start
@@ -52,25 +53,12 @@ def help_message(message: types.Message) -> None:
 
 
 @logger.catch
-@bot.message_handler(content_types=['text'])
-def message_check(message: types.Message) -> None:
-    """
-    Функция. Отлавливает некорректные команды.
-    :param message:
-    :return: None
-    """
-    logger.info(f'User {message.chat.id} input unknown command.')
-    bot.send_message(chat_id=message.chat.id, text='Введена неизвестная команда.')
-    help_message(message)
-
-
-@logger.catch
-@bot.message_handler(commands=['lowprice', 'highprice'])
+@bot.message_handler(commands=['lowprice', 'highprice', 'bestdeal'])
 def get_city(message: types.Message) -> None:
     """
-    Функция, которая реагирует на команды /lowprice, /highprice.
+    Функция, которая реагирует на команды /lowprice, /highprice, /bestdeal.
     Принимает от пользователя название города, в котором требуется осуществить поиск.
-    :param message: сообщение пользователя с командной из команд /lowprice, /highprice.
+    :param message: сообщение пользователя с командной из команд /lowprice, /highprice, /bestdeal.
     :return: None
     """
     logger.info(f'User {message.chat.id} used command {message.text}')
@@ -79,6 +67,19 @@ def get_city(message: types.Message) -> None:
     set_info(column='command', value=message.text[1:], user_id=chat_id)
     msg = bot.send_message(chat_id=message.chat.id, text='Укажите в каком городе ищем отель:')
     bot.register_next_step_handler(message=msg, callback=city_choice_keyboard)
+
+
+@logger.catch
+@bot.message_handler(content_types=['text'])
+def message_check(message: types.Message) -> None:
+    """
+    Функция. Отлавливает некорректные команды.
+    :param message: любое сообщение от пользователя, не являющееся командой.
+    :return: None
+    """
+    logger.info(f'User {message.chat.id} input unknown command.')
+    bot.send_message(chat_id=message.chat.id, text='Введена неизвестная команда.')
+    help_message(message)
 
 
 @logger.catch
@@ -111,6 +112,113 @@ def city_choice_keyboard(message: types.Message) -> None:
 
 
 @logger.catch
+@bot.callback_query_handler(func=lambda call: True)
+def reg_city_choice(call: types.CallbackQuery) -> None:
+    """
+    Функция. Обрабатывает ответ пользователя, введенный с клавиатуры телеграм бота.
+    :param call: ответ на выбор населенного пункта для поиска, ответ на вопрос о необходимости выгрузки фотографий.
+    :return: None
+    """
+    if call.data == 'No':
+        logger.info(f'User {call.from_user.id} choose request without photo.')
+        bot.delete_message(chat_id=call.from_user.id, message_id=call.message.message_id)
+        set_info(column='photos_count', value=0, user_id=call.from_user.id)
+        result(user_id=call.from_user.id)
+    elif call.data == 'Yes':
+        logger.info(f'User {call.from_user.id} choose request with photo.')
+        bot.delete_message(chat_id=call.from_user.id, message_id=call.message.message_id)
+        msg = bot.send_message(chat_id=call.from_user.id, text='Укажите кол-во фотографий (не более 5).')
+        bot.register_next_step_handler(message=msg, callback=add_photo)
+    else:
+        logger.info(f'User {call.from_user.id} choose city {call.data.split("|")[0]}')
+        set_info(column='city_id', value=int(call.data.split('|')[1]), user_id=int(call.data.split('|')[2]))
+        set_info(column='city_name', value=call.data.split('|')[0], user_id=int(call.data.split('|')[2]))
+        bot.send_message(chat_id=call.from_user.id, text=call.data.split('|')[0])
+        command_check = get_info(user_id=call.from_user.id)
+        bot.edit_message_reply_markup(chat_id=call.from_user.id, message_id=call.message.message_id)
+        if command_check[1] == 'bestdeal':
+            msg = bot.send_message(chat_id=call.from_user.id, text='Введите диапазон цен через пробел.')
+            bot.register_next_step_handler(message=msg, callback=price_range)
+        else:
+            msg = bot.send_message(chat_id=call.from_user.id, text='Сколько отелей ищем (не более 25)?')
+            bot.register_next_step_handler(message=msg, callback=get_hotels_count)
+
+
+@logger.catch
+def price_range(message: types.Message) -> None:
+    """
+    Функция. Принимает диапазон цен для поиска отелей в рамках команды /bestdeal.
+    :param message: сообщение пользователя с диапазоном цен.
+    :return: None
+    """
+
+    price_params = message.text.split()
+    if len(price_params) != 2:
+        logger.info(f'User {message.chat.id} input wrong price range.')
+        msg = bot.send_message(chat_id=message.chat.id, text='Диапазон указан некорректно.\n'
+                                                             'Укажите минимальную и максимальную '
+                                                             'цены через пробел.')
+        bot.register_next_step_handler(message=msg, callback=price_range)
+        return
+
+    if int(price_params[0]) > int(price_params[1]):
+        price_params[0], price_params[1] = price_params[1], price_params[0]
+
+    try:
+        chat_id = message.chat.id
+        set_info(column='price_min', value=int(price_params[0]), user_id=chat_id)
+        set_info(column='price_max', value=int(price_params[1]), user_id=chat_id)
+    except ValueError:
+        msg = bot.send_message(chat_id=message.chat.id, text='Укажите значения цен цифрами.')
+        bot.register_next_step_handler(message=msg, callback=price_range)
+    else:
+        logger.info(f'User {message.from_user.id} pick {message.text} as price range.')
+        bot.send_message(chat_id=message.chat.id, text=f'Установлен диапазон: '
+                                                       f'минимальная цена - {price_params[0]}, '
+                                                       f'максимальная цена - {price_params[1]}.')
+        msg = bot.send_message(chat_id=message.chat.id, text='Укажите через пробел диапазон расстояния, '
+                                                             'в котором должен находиться отель от центра.')
+        bot.register_next_step_handler(message=msg, callback=distance_range)
+
+
+@logger.catch
+def distance_range(message: types.Message) -> None:
+    """
+    Функция. Принимает диапазон расстояния удаленности отелей от центра города
+    в рамках команды /bestdeal.
+    :param message: сообщение пользователя с диапазоном расстояния.
+    :return: None
+    """
+
+    distance_params = message.text.split()
+    if len(distance_params) != 2:
+        logger.info(f'User {message.chat.id} input wrong distance range.')
+        msg = bot.send_message(chat_id=message.chat.id, text='Диапазон указан некорректно.\n'
+                                                             'Укажите минимальное и максимальное '
+                                                             'расстояние через пробел.')
+        bot.register_next_step_handler(message=msg, callback=distance_range)
+        return
+
+    if int(distance_params[0]) > int(distance_params[1]):
+        distance_params[0], distance_params[1] = distance_params[1], distance_params[0]
+
+    try:
+        chat_id = message.chat.id
+        set_info(column='distance_min', value=int(distance_params[0]), user_id=chat_id)
+        set_info(column='distance_max', value=int(distance_params[1]), user_id=chat_id)
+    except ValueError:
+        msg = bot.send_message(chat_id=message.chat.id, text='Укажите значения расстояния цифрами.')
+        bot.register_next_step_handler(message=msg, callback=distance_range)
+    else:
+        logger.info(f'User {message.from_user.id} pick {message.text} as distance range.')
+        bot.send_message(chat_id=message.chat.id, text=f'Установлен диапазон: '
+                                                       f'минимальное расстояние - {distance_params[0]}, '
+                                                       f'максимальное расстояние - {distance_params[1]}.')
+        msg = bot.send_message(chat_id=message.chat.id, text='Сколько отелей ищем (не более 25)?')
+        bot.register_next_step_handler(message=msg, callback=get_hotels_count)
+
+
+@logger.catch
 def get_hotels_count(message: types.Message) -> None:
     """
     Функция, которая создает клавиатуру для уточнения необходимости выгрузки фотографий.
@@ -129,41 +237,13 @@ def get_hotels_count(message: types.Message) -> None:
         msg = bot.send_message(chat_id=message.chat.id, text='Укажите количество цифрами.')
         bot.register_next_step_handler(message=msg, callback=get_hotels_count)
     else:
-        logger.info(f'Ask user {message.chat.id} about hotel photo')
+        logger.info(f'Ask user {message.chat.id} about hotel photo.')
         chat_id = message.chat.id
         set_info(column='hotels_count', value=message.text, user_id=chat_id)
         markup = types.InlineKeyboardMarkup(row_width=3)
         markup.add(telebot.types.InlineKeyboardButton(text='Да', callback_data='Yes'))
         markup.add(telebot.types.InlineKeyboardButton(text='Нет', callback_data='No'))
         bot.send_message(chat_id=message.chat.id, text='Загрузить фото отеля?', reply_markup=markup)
-
-
-@logger.catch
-@bot.callback_query_handler(func=lambda call: True)
-def reg_city_choice(call: types.CallbackQuery) -> None:
-    """
-    Функция. Обрабатывает ответ пользователя, введенной с клавиатуры телеграм бота.
-    :param call: ответ на выбор населенного пункта для поиска, ответ вопрос о необходимости выгрузки фотографий.
-    :return: None
-    """
-    if call.data == 'No':
-        logger.info(f'User {call.from_user.id} choose request without photo.')
-        bot.delete_message(chat_id=call.from_user.id, message_id=call.message.message_id)
-        set_info(column='photos_count', value=0, user_id=call.from_user.id)
-        result(user_id=call.from_user.id)
-    elif call.data == 'Yes':
-        logger.info(f'User {call.from_user.id} choose request with photo.')
-        bot.delete_message(chat_id=call.from_user.id, message_id=call.message.message_id)
-        msg = bot.send_message(chat_id=call.from_user.id, text='Укажите кол-во фотографий (не более 5).')
-        bot.register_next_step_handler(message=msg, callback=add_photo)
-    else:
-        logger.info(f'User {call.from_user.id} choose city {call.data.split("|")[0]}')
-        set_info(column='city_id', value=int(call.data.split('|')[1]), user_id=int(call.data.split('|')[2]))
-        set_info(column='city_name', value=call.data.split('|')[0], user_id=int(call.data.split('|')[2]))
-        bot.send_message(chat_id=call.from_user.id, text=call.data.split('|')[0])
-        msg = bot.send_message(chat_id=call.from_user.id, text='Сколько отелей ищем (не более 25)?')
-        bot.edit_message_reply_markup(chat_id=call.from_user.id, message_id=call.message.message_id)
-        bot.register_next_step_handler(message=msg, callback=get_hotels_count)
 
 
 @logger.catch
@@ -197,15 +277,26 @@ def result(user_id) -> None:
     :return: None
     """
     info_from_bd = get_info(user_id=user_id)
-    request_result = hotels_info_for_low_high_price(town_id=info_from_bd[2],
-                                                    count_of_hotels=info_from_bd[4],
-                                                    command=info_from_bd[1])
+
+    if info_from_bd[1] == 'bestdeal':
+        request_result = hotels_info_for_bestdeal(town_id=info_from_bd[2],
+                                                  count_of_hotels=info_from_bd[4],
+                                                  min_price=info_from_bd[6],
+                                                  max_price=info_from_bd[7],
+                                                  min_distance=info_from_bd[8],
+                                                  max_distance=info_from_bd[9]
+                                                  )
+    else:
+        request_result = hotels_info_for_low_high_price(town_id=info_from_bd[2],
+                                                        count_of_hotels=info_from_bd[4],
+                                                        command=info_from_bd[1])
+
     if request_result is None:
         bot.send_message(chat_id=user_id, text='Не удается получить информацию с сайта.'
                                                'Повторите запрос позднее.')
         return
 
-    bot.send_message(chat_id=user_id, text=f'Вот что удалось найти')
+    bot.send_message(chat_id=user_id, text=f'Вот что удалось найти:')
 
     for data in request_result:
         request_answer = f'Название отеля: {data.get("name")}\n'\

@@ -20,7 +20,8 @@ def create_db(user_id: int) -> None:
                                                                 photos_count INTEGER,
                                                                 price_min INTEGER,
                                                                 price_max INTEGER,
-                                                                distance INTEGER
+                                                                distance_min INTEGER,
+                                                                distance_max INTEGER
                                                                 )""")
 
         try:

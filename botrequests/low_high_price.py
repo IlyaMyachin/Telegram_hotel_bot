@@ -64,5 +64,5 @@ def hotels_info_for_low_high_price(town_id: str, count_of_hotels: int, command: 
 
         return hotels_list
     except requests.exceptions.RequestException as e:
-        logger.info(f'{e} exceptions on step "hotels_info"')
+        logger.info(f'{e} exceptions on step "hotels_info_for_low_high_price"')
         return None

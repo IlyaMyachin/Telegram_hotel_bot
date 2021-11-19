@@ -5188,3 +5188,283 @@ KeyError: 'streetAddress'
 2021-11-17T17:38:05.450251+0300 INFO User 420616225 input unknown command.
 2021-11-17T17:38:05.755268+0300 INFO User 420616225 used command /help
 2021-11-17T17:38:05.755268+0300 INFO User 420616225 used command /help
+2021-11-18T21:04:49.137112+0300 INFO User 420616225 used command /start
+2021-11-18T21:04:49.137112+0300 INFO User 420616225 used command /start
+2021-11-18T21:04:49.370125+0300 INFO User 420616225 used command /help
+2021-11-18T21:04:49.370125+0300 INFO User 420616225 used command /help
+2021-11-18T21:04:51.925271+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:04:51.925271+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:04:52.350295+0300 INFO User 420616225 used command /help
+2021-11-18T21:04:52.350295+0300 INFO User 420616225 used command /help
+2021-11-18T21:05:07.565166+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:05:07.565166+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:05:07.664171+0300 INFO User 420616225 used command /help
+2021-11-18T21:05:07.664171+0300 INFO User 420616225 used command /help
+2021-11-18T21:05:39.524994+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:05:39.524994+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:05:39.656001+0300 INFO User 420616225 used command /help
+2021-11-18T21:05:39.656001+0300 INFO User 420616225 used command /help
+2021-11-18T21:06:00.452191+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:06:00.452191+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:06:00.598199+0300 INFO User 420616225 used command /help
+2021-11-18T21:06:00.598199+0300 INFO User 420616225 used command /help
+2021-11-18T21:06:03.971392+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:06:03.971392+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:06:04.281410+0300 INFO User 420616225 used command /help
+2021-11-18T21:06:04.281410+0300 INFO User 420616225 used command /help
+2021-11-18T21:06:25.708635+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:06:25.708635+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:06:25.912647+0300 INFO User 420616225 used command /help
+2021-11-18T21:06:25.912647+0300 INFO User 420616225 used command /help
+2021-11-18T21:07:00.025598+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:07:00.025598+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:07:00.345616+0300 INFO User 420616225 used command /help
+2021-11-18T21:07:00.345616+0300 INFO User 420616225 used command /help
+2021-11-18T21:07:15.119461+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:07:15.119461+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:07:15.194466+0300 INFO User 420616225 used command /help
+2021-11-18T21:07:15.194466+0300 INFO User 420616225 used command /help
+2021-11-18T21:07:16.210524+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:07:16.210524+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:07:16.296529+0300 INFO User 420616225 used command /help
+2021-11-18T21:07:16.296529+0300 INFO User 420616225 used command /help
+2021-11-18T21:07:17.456595+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:07:17.456595+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:07:17.556601+0300 INFO User 420616225 used command /help
+2021-11-18T21:07:17.556601+0300 INFO User 420616225 used command /help
+2021-11-18T21:07:18.996683+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:07:18.996683+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:07:19.085688+0300 INFO User 420616225 used command /help
+2021-11-18T21:07:19.085688+0300 INFO User 420616225 used command /help
+2021-11-18T21:09:55.238521+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:09:55.238521+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:09:55.446528+0300 INFO User 420616225 used command /help
+2021-11-18T21:09:55.446528+0300 INFO User 420616225 used command /help
+2021-11-18T21:15:11.381148+0300 INFO User 420616225 used command /help
+2021-11-18T21:15:11.381148+0300 INFO User 420616225 used command /help
+2021-11-18T21:15:11.381148+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:15:11.381148+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:15:11.591149+0300 INFO User 420616225 used command /help
+2021-11-18T21:15:11.591149+0300 INFO User 420616225 used command /help
+2021-11-18T21:15:15.669279+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:15:15.669279+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:15:15.843288+0300 INFO User 420616225 used command /help
+2021-11-18T21:15:15.843288+0300 INFO User 420616225 used command /help
+2021-11-18T21:15:17.092318+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:15:17.092318+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:15:17.206324+0300 INFO User 420616225 used command /help
+2021-11-18T21:15:17.206324+0300 INFO User 420616225 used command /help
+2021-11-18T21:15:29.460431+0300 INFO User 420616225 used command /lowprice
+2021-11-18T21:15:29.460431+0300 INFO User 420616225 used command /lowprice
+2021-11-18T21:15:29.530435+0300 INFO Table for user 420616225 created
+2021-11-18T21:15:29.530435+0300 INFO Table for user 420616225 created
+2021-11-18T21:15:33.613489+0300 INFO Make a list of cities for user 420616225
+2021-11-18T21:15:33.613489+0300 INFO Make a list of cities for user 420616225
+2021-11-18T21:15:39.356576+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-18T21:15:39.356576+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-18T21:15:43.411640+0300 INFO Ask user 420616225 about hotel photo
+2021-11-18T21:15:43.411640+0300 INFO Ask user 420616225 about hotel photo
+2021-11-18T21:15:45.289696+0300 INFO User 420616225 choose request without photo.
+2021-11-18T21:15:45.289696+0300 INFO User 420616225 choose request without photo.
+2021-11-18T21:16:01.023864+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:16:01.023864+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:16:01.272876+0300 INFO User 420616225 used command /help
+2021-11-18T21:16:01.272876+0300 INFO User 420616225 used command /help
+2021-11-18T21:16:13.984081+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:16:13.984081+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:16:14.074087+0300 INFO User 420616225 used command /help
+2021-11-18T21:16:14.074087+0300 INFO User 420616225 used command /help
+2021-11-18T21:16:34.278330+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:16:34.278330+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:16:34.497340+0300 INFO User 420616225 used command /help
+2021-11-18T21:16:34.497340+0300 INFO User 420616225 used command /help
+2021-11-18T21:16:36.117381+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:16:36.117381+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:16:36.225387+0300 INFO User 420616225 used command /help
+2021-11-18T21:16:36.225387+0300 INFO User 420616225 used command /help
+2021-11-18T21:18:12.006734+0300 INFO User 420616225 used command /lowprice
+2021-11-18T21:18:12.006734+0300 INFO User 420616225 used command /lowprice
+2021-11-18T21:18:12.012735+0300 INFO Table for user 420616225 created
+2021-11-18T21:18:12.012735+0300 INFO Table for user 420616225 created
+2021-11-18T21:18:33.304939+0300 INFO User 420616225 used command /lowprice
+2021-11-18T21:18:33.304939+0300 INFO User 420616225 used command /lowprice
+2021-11-18T21:18:33.307939+0300 INFO Table for user 420616225 created
+2021-11-18T21:18:33.307939+0300 INFO Table for user 420616225 created
+2021-11-18T21:30:22.523311+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:30:22.523311+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:30:22.753321+0300 INFO User 420616225 used command /help
+2021-11-18T21:30:22.753321+0300 INFO User 420616225 used command /help
+2021-11-18T21:30:24.736358+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:30:24.736358+0300 INFO User 420616225 input unknown command.
+2021-11-18T21:30:24.829358+0300 INFO User 420616225 used command /help
+2021-11-18T21:30:24.829358+0300 INFO User 420616225 used command /help
+2021-11-18T21:30:26.316403+0300 INFO User 420616225 used command /lowprice
+2021-11-18T21:30:26.316403+0300 INFO User 420616225 used command /lowprice
+2021-11-18T21:30:26.362405+0300 INFO Table for user 420616225 created
+2021-11-18T21:30:26.362405+0300 INFO Table for user 420616225 created
+2021-11-18T21:31:56.079895+0300 INFO User 420616225 used command /lowprice
+2021-11-18T21:31:56.079895+0300 INFO User 420616225 used command /lowprice
+2021-11-18T21:31:56.084896+0300 INFO Table for user 420616225 created
+2021-11-18T21:31:56.084896+0300 INFO Table for user 420616225 created
+2021-11-18T21:32:02.405997+0300 INFO Make a list of cities for user 420616225
+2021-11-18T21:32:02.405997+0300 INFO Make a list of cities for user 420616225
+2021-11-18T21:32:09.035055+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-18T21:32:09.035055+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-18T21:32:11.093107+0300 INFO Ask user 420616225 about hotel photo
+2021-11-18T21:32:11.093107+0300 INFO Ask user 420616225 about hotel photo
+2021-11-18T21:37:22.179192+0300 INFO User 420616225 used command /lowprice
+2021-11-18T21:37:22.179192+0300 INFO User 420616225 used command /lowprice
+2021-11-18T21:37:22.182193+0300 INFO Table for user 420616225 created
+2021-11-18T21:37:22.182193+0300 INFO Table for user 420616225 created
+2021-11-18T21:37:29.706312+0300 INFO User 420616225 used command /bestdeal
+2021-11-18T21:37:29.706312+0300 INFO User 420616225 used command /bestdeal
+2021-11-18T21:37:29.709312+0300 INFO Table for user 420616225 created
+2021-11-18T21:37:29.709312+0300 INFO Table for user 420616225 created
+2021-11-18T21:37:32.293361+0300 INFO Make a list of cities for user 420616225
+2021-11-18T21:37:32.293361+0300 INFO Make a list of cities for user 420616225
+2021-11-18T21:37:36.134432+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-18T21:37:36.134432+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-18T21:37:43.282496+0300 ERROR An error has been caught in function 'run', process 'MainProcess' (1928), thread 'WorkerThread3' (5628):
+Traceback (most recent call last):
+
+  File "C:\Users\Python38\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+    |    -> <function Thread._bootstrap_inner at 0x00000000028E6940>
+    -> <WorkerThread(WorkerThread3, started daemon 5628)>
+
+  File "C:\Users\Python38\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+    |    -> <function WorkerThread.run at 0x0000000002BDFE50>
+    -> <WorkerThread(WorkerThread3, started daemon 5628)>
+
+> File "C:\Users\PycharmProjects\python_basic_diploma\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+    |     |       -> {}
+    |     -> (<telebot.types.Message object at 0x00000000038391F0>,)
+    -> <function price_range at 0x0000000003808280>
+
+TypeError: price_range() takes 0 positional arguments but 1 was given
+2021-11-18T21:37:43.282496+0300 ERROR An error has been caught in function 'run', process 'MainProcess' (1928), thread 'WorkerThread3' (5628):
+Traceback (most recent call last):
+
+  File "C:\Users\Python38\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+    |    -> <function Thread._bootstrap_inner at 0x00000000028E6940>
+    -> <WorkerThread(WorkerThread3, started daemon 5628)>
+
+  File "C:\Users\Python38\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+    |    -> <function WorkerThread.run at 0x0000000002BDFE50>
+    -> <WorkerThread(WorkerThread3, started daemon 5628)>
+
+> File "C:\Users\PycharmProjects\python_basic_diploma\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+    |     |       -> {}
+    |     -> (<telebot.types.Message object at 0x00000000038391F0>,)
+    -> <function price_range at 0x0000000003808280>
+
+TypeError: price_range() takes 0 positional arguments but 1 was given
+2021-11-19T01:35:00.427704+0300 INFO User 420616225 used command /lowprice
+2021-11-19T01:35:00.427704+0300 INFO User 420616225 used command /lowprice
+2021-11-19T01:35:00.565712+0300 INFO Table for user 420616225 created
+2021-11-19T01:35:00.565712+0300 INFO Table for user 420616225 created
+2021-11-19T01:35:03.497879+0300 INFO Make a list of cities for user 420616225
+2021-11-19T01:35:03.497879+0300 INFO Make a list of cities for user 420616225
+2021-11-19T01:35:15.108543+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-19T01:35:15.108543+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-19T01:35:17.220664+0300 INFO Ask user 420616225 about hotel photo
+2021-11-19T01:35:17.220664+0300 INFO Ask user 420616225 about hotel photo
+2021-11-19T01:35:19.256781+0300 INFO User 420616225 choose request without photo.
+2021-11-19T01:35:19.256781+0300 INFO User 420616225 choose request without photo.
+2021-11-19T01:35:46.726352+0300 INFO User 420616225 used command /bestdeal
+2021-11-19T01:35:46.726352+0300 INFO User 420616225 used command /bestdeal
+2021-11-19T01:35:46.730352+0300 INFO Table for user 420616225 created
+2021-11-19T01:35:46.730352+0300 INFO Table for user 420616225 created
+2021-11-19T01:35:51.106602+0300 INFO Make a list of cities for user 420616225
+2021-11-19T01:35:51.106602+0300 INFO Make a list of cities for user 420616225
+2021-11-19T01:35:57.696979+0300 INFO User 420616225 choose city Казань, Россия
+2021-11-19T01:35:57.696979+0300 INFO User 420616225 choose city Казань, Россия
+2021-11-19T01:36:02.215238+0300 INFO User 420616225 input wrong price range.
+2021-11-19T01:36:02.215238+0300 INFO User 420616225 input wrong price range.
+2021-11-19T01:36:14.098917+0300 INFO User 420616225 pick выа фыв as price range.
+2021-11-19T01:36:14.098917+0300 INFO User 420616225 pick выа фыв as price range.
+2021-11-19T01:52:46.549963+0300 INFO User 420616225 used command /bestdeal
+2021-11-19T01:52:46.549963+0300 INFO User 420616225 used command /bestdeal
+2021-11-19T01:52:46.552963+0300 INFO Table for user 420616225 created
+2021-11-19T01:52:46.552963+0300 INFO Table for user 420616225 created
+2021-11-19T01:52:50.572193+0300 INFO Make a list of cities for user 420616225
+2021-11-19T01:52:50.572193+0300 INFO Make a list of cities for user 420616225
+2021-11-19T01:52:55.714487+0300 INFO User 420616225 choose city Казань, Россия
+2021-11-19T01:52:55.714487+0300 INFO User 420616225 choose city Казань, Россия
+2021-11-19T01:52:59.957730+0300 INFO User 420616225 pick выа фыв as price range.
+2021-11-19T01:52:59.957730+0300 INFO User 420616225 pick выа фыв as price range.
+2021-11-19T01:53:25.880213+0300 INFO User 420616225 used command /bestdeal
+2021-11-19T01:53:25.880213+0300 INFO User 420616225 used command /bestdeal
+2021-11-19T01:53:25.883213+0300 INFO Table for user 420616225 created
+2021-11-19T01:53:25.883213+0300 INFO Table for user 420616225 created
+2021-11-19T01:53:28.329353+0300 INFO Make a list of cities for user 420616225
+2021-11-19T01:53:28.329353+0300 INFO Make a list of cities for user 420616225
+2021-11-19T01:53:32.749606+0300 INFO User 420616225 choose city Казань, Россия
+2021-11-19T01:53:32.749606+0300 INFO User 420616225 choose city Казань, Россия
+2021-11-19T01:55:37.885763+0300 INFO User 420616225 used command /bestdeal
+2021-11-19T01:55:37.885763+0300 INFO User 420616225 used command /bestdeal
+2021-11-19T01:55:37.891763+0300 INFO Table for user 420616225 created
+2021-11-19T01:55:37.891763+0300 INFO Table for user 420616225 created
+2021-11-19T01:55:41.387963+0300 INFO Make a list of cities for user 420616225
+2021-11-19T01:55:41.387963+0300 INFO Make a list of cities for user 420616225
+2021-11-19T01:55:46.318245+0300 INFO User 420616225 choose city Казань, Россия
+2021-11-19T01:55:46.318245+0300 INFO User 420616225 choose city Казань, Россия
+2021-11-19T01:55:48.908394+0300 INFO User 420616225 input wrong price range.
+2021-11-19T01:55:48.908394+0300 INFO User 420616225 input wrong price range.
+2021-11-19T01:55:52.273586+0300 INFO User 420616225 input wrong price range.
+2021-11-19T01:55:52.273586+0300 INFO User 420616225 input wrong price range.
+2021-11-19T01:56:20.952226+0300 INFO User 420616225 used command /bestdeal
+2021-11-19T01:56:20.952226+0300 INFO User 420616225 used command /bestdeal
+2021-11-19T01:56:20.956227+0300 INFO Table for user 420616225 created
+2021-11-19T01:56:20.956227+0300 INFO Table for user 420616225 created
+2021-11-19T01:56:22.949341+0300 INFO Make a list of cities for user 420616225
+2021-11-19T01:56:22.949341+0300 INFO Make a list of cities for user 420616225
+2021-11-19T01:56:26.776560+0300 INFO User 420616225 choose city Казань, Россия
+2021-11-19T01:56:26.776560+0300 INFO User 420616225 choose city Казань, Россия
+2021-11-19T01:56:54.371138+0300 INFO User 420616225 input wrong price range.
+2021-11-19T01:56:54.371138+0300 INFO User 420616225 input wrong price range.
+2021-11-19T01:57:06.694843+0300 INFO User 420616225 pick 2000 5000 as price range.
+2021-11-19T01:57:06.694843+0300 INFO User 420616225 pick 2000 5000 as price range.
+2021-11-19T01:57:21.313679+0300 INFO User 420616225 input wrong distance range.
+2021-11-19T01:57:21.313679+0300 INFO User 420616225 input wrong distance range.
+2021-11-19T01:57:32.411314+0300 INFO User 420616225 pick 2 10 as distance range.
+2021-11-19T01:57:32.411314+0300 INFO User 420616225 pick 2 10 as distance range.
+2021-11-19T01:57:57.506749+0300 INFO Ask user 420616225 about hotel photo
+2021-11-19T01:57:57.506749+0300 INFO Ask user 420616225 about hotel photo
+2021-11-19T01:57:59.200846+0300 INFO User 420616225 choose request with photo.
+2021-11-19T01:57:59.200846+0300 INFO User 420616225 choose request with photo.
+2021-11-19T01:58:00.373913+0300 INFO Set number of photos from user 420616225 request
+2021-11-19T01:58:00.373913+0300 INFO Set number of photos from user 420616225 request
+2021-11-19T02:05:03.279289+0300 INFO User 420616225 used command /bestdeal
+2021-11-19T02:05:03.279289+0300 INFO User 420616225 used command /bestdeal
+2021-11-19T02:05:03.291289+0300 INFO Table for user 420616225 created
+2021-11-19T02:05:03.291289+0300 INFO Table for user 420616225 created
+2021-11-19T02:05:06.309462+0300 INFO Make a list of cities for user 420616225
+2021-11-19T02:05:06.309462+0300 INFO Make a list of cities for user 420616225
+2021-11-19T02:05:10.839721+0300 INFO User 420616225 choose city Казань, Россия
+2021-11-19T02:05:10.839721+0300 INFO User 420616225 choose city Казань, Россия
+2021-11-19T02:05:18.075135+0300 INFO User 420616225 pick 2000 5000 as price range.
+2021-11-19T02:05:18.075135+0300 INFO User 420616225 pick 2000 5000 as price range.
+2021-11-19T02:06:38.098712+0300 INFO User 420616225 used command /bestdeal
+2021-11-19T02:06:38.098712+0300 INFO User 420616225 used command /bestdeal
+2021-11-19T02:06:38.101712+0300 INFO Table for user 420616225 created
+2021-11-19T02:06:38.101712+0300 INFO Table for user 420616225 created
+2021-11-19T02:06:44.141058+0300 INFO Make a list of cities for user 420616225
+2021-11-19T02:06:44.141058+0300 INFO Make a list of cities for user 420616225
+2021-11-19T02:06:52.699547+0300 INFO User 420616225 choose city Казань, Россия
+2021-11-19T02:06:52.699547+0300 INFO User 420616225 choose city Казань, Россия
+2021-11-19T02:07:02.965134+0300 INFO User 420616225 pick 2000 5000 as price range.
+2021-11-19T02:07:02.965134+0300 INFO User 420616225 pick 2000 5000 as price range.
+2021-11-19T02:07:13.181719+0300 INFO User 420616225 pick 2 10 as distance range.
+2021-11-19T02:07:13.181719+0300 INFO User 420616225 pick 2 10 as distance range.
+2021-11-19T02:07:15.554855+0300 INFO Ask user 420616225 about hotel photo.
+2021-11-19T02:07:15.554855+0300 INFO Ask user 420616225 about hotel photo.
+2021-11-19T02:07:17.211949+0300 INFO User 420616225 choose request with photo.
+2021-11-19T02:07:17.211949+0300 INFO User 420616225 choose request with photo.
+2021-11-19T02:07:18.453020+0300 INFO Set number of photos from user 420616225 request
+2021-11-19T02:07:18.453020+0300 INFO Set number of photos from user 420616225 request
