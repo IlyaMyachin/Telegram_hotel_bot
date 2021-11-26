@@ -1,5 +1,6 @@
 import requests
 import os
+
 from loguru import logger
 from typing import List
 from datetime import date, timedelta
@@ -48,6 +49,10 @@ def hotels_info_for_low_high_price(town_id: str, count_of_hotels: int, command: 
                                     headers=headers,
                                     params=querystring,
                                     timeout=30)
+
+        if response.status_code != 200:
+            return None
+
         founded_hotels = response.json()
         hotels_list = [{'id': hotel['id'],
                         'name': hotel['name'],
@@ -63,6 +68,7 @@ def hotels_info_for_low_high_price(town_id: str, count_of_hotels: int, command: 
                     dicts[key] = 'Информация отсутствует'
 
         return hotels_list
+
     except requests.exceptions.RequestException as e:
         logger.info(f'{e} exceptions on step "hotels_info_for_low_high_price"')
         return None

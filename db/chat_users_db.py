@@ -21,15 +21,16 @@ def create_db(user_id: int) -> None:
                                                                 price_min INTEGER,
                                                                 price_max INTEGER,
                                                                 distance_min INTEGER,
-                                                                distance_max INTEGER
+                                                                distance_max INTEGER,
+                                                                request_time TEXT
                                                                 )""")
 
         try:
             cursor.execute(f""" INSERT INTO users_data(user_id) VALUES({user_id}) """)
+            logger.info(f'Table for user {user_id} created')
         except sqlite3.IntegrityError:
             pass
         finally:
-            logger.info(f'Table for user {user_id} created')
             chat_data.commit()
 
 

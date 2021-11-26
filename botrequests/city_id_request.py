@@ -2,6 +2,7 @@ import requests
 import json
 import os
 import re
+
 from loguru import logger
 from typing import Optional, List
 from dotenv import load_dotenv
@@ -33,14 +34,14 @@ def search_city(city: Optional[str]) -> List[dict] or None:
                                                headers=headers,
                                                params=querystring,
                                                timeout=30).text)
+        if response.status_code != 200:
+            return None
 
         city_list = []
-
         for i in response['suggestions'][0]['entities']:
-            if i['name'] == city.title():
-                caption = i['caption'].split(',')[-1]
-                city_list.append({i['destinationId']: i['name'] + ',' + caption})
-
+            if i['name'].title() == city.title():
+                caption = re.sub(r"^<span class='highlighted'>|</span>", '', i['caption']).split(',')[:2]
+                city_list.append({i['destinationId']: ','.join(caption)})
         return city_list
     except requests.exceptions.RequestException as e:
         logger.info(f'{e} exceptions on step "search_city"')

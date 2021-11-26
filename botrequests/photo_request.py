@@ -28,10 +28,14 @@ def get_photo(hotel_id: str) -> List[dict] or None:
                                     headers=headers,
                                     params=querystring,
                                     timeout=30)
+
+        if response.status_code != 200:
+            return None
+
         founded_url = response.json()
         url_list = [{'photo': url[f'baseUrl']} for url in founded_url['hotelImages']]
-
         return url_list
+
     except requests.exceptions.RequestException as e:
         logger.info(f'{e} exceptions on step "get_photo"')
         return None
