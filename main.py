@@ -399,10 +399,10 @@ def result(user_id) -> None:
             for elem in photos[:info_from_bd[5]]:
                 if elem is not None:
                     photos_list.append(types.InputMediaPhoto((elem['photo']).replace('{size}', 'z')))
-                try:
-                    bot.send_media_group(chat_id=user_id, media=photos_list)
-                except telebot.apihelper.ApiTelegramException:
-                    bot.send_message(chat_id=user_id, text='По данному отелю не удалось получить фотографии.')
+            try:
+                bot.send_media_group(chat_id=user_id, media=photos_list)
+            except telebot.apihelper.ApiTelegramException:
+                bot.send_message(chat_id=user_id, text='По данному отелю не удалось получить фотографии.')
 
     create_history(req_time=info_from_bd[10], user_id=user_id)
     set_history_info(command_type=str(info_from_bd[1]),

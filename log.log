@@ -19180,3 +19180,259 @@ telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsucc
 2021-11-27T01:53:38.852073+0300 INFO User's 420616225 history successfully saved
 2021-11-27T01:53:38.926078+0300 INFO User 420616225 used command /help
 2021-11-27T01:53:38.926078+0300 INFO User 420616225 used command /help
+2021-11-27T02:41:40.483584+0300 INFO User 420616225 used command /lowprice
+2021-11-27T02:41:40.483584+0300 INFO User 420616225 used command /lowprice
+2021-11-27T02:41:44.360633+0300 INFO Make a list of cities for user 420616225
+2021-11-27T02:41:44.360633+0300 INFO Make a list of cities for user 420616225
+2021-11-27T02:41:46.733466+0300 ERROR An error has been caught in function 'city_choice_keyboard', process 'MainProcess' (8320), thread 'WorkerThread4' (4188):
+Traceback (most recent call last):
+
+  File "C:\Users\Python38\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+    |    -> <function Thread._bootstrap_inner at 0x0000000002909A60>
+    -> <WorkerThread(WorkerThread4, started daemon 4188)>
+
+  File "C:\Users\Python38\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+    |    -> <function WorkerThread.run at 0x0000000002BF2F70>
+    -> <WorkerThread(WorkerThread4, started daemon 4188)>
+
+  File "C:\Users\PycharmProjects\python_basic_diploma\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+    |     |       -> {}
+    |     -> (<telebot.types.Message object at 0x00000000038DAE20>,)
+    -> <function city_choice_keyboard at 0x00000000038D3310>
+
+> File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 144, in city_choice_keyboard
+    city_list = search_city(city=city)
+                |                -> 'Краснодар'
+                -> <function search_city at 0x00000000037B2940>
+
+  File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\city_id_request.py", line 37, in search_city
+    if response.status_code != 200:
+       -> {'term': 'Краснодар', 'moresuggestions': 10, 'autoSuggestInstance': None, 'trackingID': '8476dab856f444a09f843f9642b4776b', '...
+
+AttributeError: 'dict' object has no attribute 'status_code'
+2021-11-27T02:41:46.733466+0300 ERROR An error has been caught in function 'city_choice_keyboard', process 'MainProcess' (8320), thread 'WorkerThread4' (4188):
+Traceback (most recent call last):
+
+  File "C:\Users\Python38\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+    |    -> <function Thread._bootstrap_inner at 0x0000000002909A60>
+    -> <WorkerThread(WorkerThread4, started daemon 4188)>
+
+  File "C:\Users\Python38\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+    |    -> <function WorkerThread.run at 0x0000000002BF2F70>
+    -> <WorkerThread(WorkerThread4, started daemon 4188)>
+
+  File "C:\Users\PycharmProjects\python_basic_diploma\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+    |     |       -> {}
+    |     -> (<telebot.types.Message object at 0x00000000038DAE20>,)
+    -> <function city_choice_keyboard at 0x00000000038D3310>
+
+> File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 144, in city_choice_keyboard
+    city_list = search_city(city=city)
+                |                -> 'Краснодар'
+                -> <function search_city at 0x00000000037B2940>
+
+  File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\city_id_request.py", line 37, in search_city
+    if response.status_code != 200:
+       -> {'term': 'Краснодар', 'moresuggestions': 10, 'autoSuggestInstance': None, 'trackingID': '8476dab856f444a09f843f9642b4776b', '...
+
+AttributeError: 'dict' object has no attribute 'status_code'
+2021-11-27T02:42:55.421062+0300 INFO User 420616225 used command /lowprice
+2021-11-27T02:42:55.421062+0300 INFO User 420616225 used command /lowprice
+2021-11-27T02:42:58.402232+0300 INFO Make a list of cities for user 420616225
+2021-11-27T02:42:58.402232+0300 INFO Make a list of cities for user 420616225
+2021-11-27T02:43:01.018382+0300 ERROR An error has been caught in function 'city_choice_keyboard', process 'MainProcess' (8556), thread 'WorkerThread3' (5704):
+Traceback (most recent call last):
+
+  File "C:\PyCharm Community Edition 2020.3.3\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 795, in __call__
+    ret = self.original_func(*self.args, **self.kwargs)
+          |    |              |    |       |    -> {}
+          |    |              |    |       -> <_pydev_bundle.pydev_monkey._NewThreadStartupWithTrace object at 0x00000000040FB160>
+          |    |              |    -> ()
+          |    |              -> <_pydev_bundle.pydev_monkey._NewThreadStartupWithTrace object at 0x00000000040FB160>
+          |    -> <bound method Thread._bootstrap of <WorkerThread(WorkerThread3, started daemon 5704)>>
+          -> <_pydev_bundle.pydev_monkey._NewThreadStartupWithTrace object at 0x00000000040FB160>
+
+  File "C:\Users\Python38\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+    |    -> <function Thread._bootstrap_inner at 0x0000000002A3FC10>
+    -> <WorkerThread(WorkerThread3, started daemon 5704)>
+
+  File "C:\Users\Python38\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+    |    -> <function WorkerThread.run at 0x00000000038610D0>
+    -> <WorkerThread(WorkerThread3, started daemon 5704)>
+
+  File "C:\Users\PycharmProjects\python_basic_diploma\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+    |     |       -> {}
+    |     -> (<telebot.types.Message object at 0x000000000411FC70>,)
+    -> <function city_choice_keyboard at 0x00000000041058B0>
+
+> File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 144, in city_choice_keyboard
+    city_list = search_city(city=city)
+                |                -> 'Краснодар'
+                -> <function search_city at 0x00000000040AFC10>
+
+  File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\city_id_request.py", line 37, in search_city
+    if response.status_code != 200:
+       -> {'term': 'Краснодар', 'moresuggestions': 10, 'autoSuggestInstance': None, 'trackingID': 'b07815b7361845ccab523e9a8b781a5b', '...
+
+AttributeError: 'dict' object has no attribute 'status_code'
+2021-11-27T02:43:01.018382+0300 ERROR An error has been caught in function 'city_choice_keyboard', process 'MainProcess' (8556), thread 'WorkerThread3' (5704):
+Traceback (most recent call last):
+
+  File "C:\PyCharm Community Edition 2020.3.3\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 795, in __call__
+    ret = self.original_func(*self.args, **self.kwargs)
+          |    |              |    |       |    -> {}
+          |    |              |    |       -> <_pydev_bundle.pydev_monkey._NewThreadStartupWithTrace object at 0x00000000040FB160>
+          |    |              |    -> ()
+          |    |              -> <_pydev_bundle.pydev_monkey._NewThreadStartupWithTrace object at 0x00000000040FB160>
+          |    -> <bound method Thread._bootstrap of <WorkerThread(WorkerThread3, started daemon 5704)>>
+          -> <_pydev_bundle.pydev_monkey._NewThreadStartupWithTrace object at 0x00000000040FB160>
+
+  File "C:\Users\Python38\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+    |    -> <function Thread._bootstrap_inner at 0x0000000002A3FC10>
+    -> <WorkerThread(WorkerThread3, started daemon 5704)>
+
+  File "C:\Users\Python38\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+    |    -> <function WorkerThread.run at 0x00000000038610D0>
+    -> <WorkerThread(WorkerThread3, started daemon 5704)>
+
+  File "C:\Users\PycharmProjects\python_basic_diploma\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+    |     |       -> {}
+    |     -> (<telebot.types.Message object at 0x000000000411FC70>,)
+    -> <function city_choice_keyboard at 0x00000000041058B0>
+
+> File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 144, in city_choice_keyboard
+    city_list = search_city(city=city)
+                |                -> 'Краснодар'
+                -> <function search_city at 0x00000000040AFC10>
+
+  File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\city_id_request.py", line 37, in search_city
+    if response.status_code != 200:
+       -> {'term': 'Краснодар', 'moresuggestions': 10, 'autoSuggestInstance': None, 'trackingID': 'b07815b7361845ccab523e9a8b781a5b', '...
+
+AttributeError: 'dict' object has no attribute 'status_code'
+2021-11-27T02:43:52.957353+0300 INFO User 420616225 used command /lowprice
+2021-11-27T02:43:52.957353+0300 INFO User 420616225 used command /lowprice
+2021-11-27T02:43:56.762570+0300 INFO Make a list of cities for user 420616225
+2021-11-27T02:43:56.762570+0300 INFO Make a list of cities for user 420616225
+2021-11-27T02:44:17.873778+0300 ERROR An error has been caught in function 'city_choice_keyboard', process 'MainProcess' (1512), thread 'WorkerThread4' (3852):
+Traceback (most recent call last):
+
+  File "C:\PyCharm Community Edition 2020.3.3\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 795, in __call__
+    ret = self.original_func(*self.args, **self.kwargs)
+          |    |              |    |       |    -> {}
+          |    |              |    |       -> <_pydev_bundle.pydev_monkey._NewThreadStartupWithTrace object at 0x00000000040DD8E0>
+          |    |              |    -> ()
+          |    |              -> <_pydev_bundle.pydev_monkey._NewThreadStartupWithTrace object at 0x00000000040DD8E0>
+          |    -> <bound method Thread._bootstrap of <WorkerThread(WorkerThread4, started daemon 3852)>>
+          -> <_pydev_bundle.pydev_monkey._NewThreadStartupWithTrace object at 0x00000000040DD8E0>
+
+  File "C:\Users\Python38\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+    |    -> <function Thread._bootstrap_inner at 0x0000000002A2FC10>
+    -> <WorkerThread(WorkerThread4, started daemon 3852)>
+
+  File "C:\Users\Python38\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+    |    -> <function WorkerThread.run at 0x00000000038210D0>
+    -> <WorkerThread(WorkerThread4, started daemon 3852)>
+
+  File "C:\Users\PycharmProjects\python_basic_diploma\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+    |     |       -> {}
+    |     -> (<telebot.types.Message object at 0x00000000042FFC70>,)
+    -> <function city_choice_keyboard at 0x00000000040E58B0>
+
+> File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 144, in city_choice_keyboard
+    city_list = search_city(city=city)
+                |                -> 'Краснодар'
+                -> <function search_city at 0x0000000004091C10>
+
+  File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\city_id_request.py", line 37, in search_city
+    if response.status_code != 200:
+       -> {'term': 'Краснодар', 'moresuggestions': 10, 'autoSuggestInstance': None, 'trackingID': 'b07815b7361845ccab523e9a8b781a5b', '...
+
+AttributeError: 'dict' object has no attribute 'status_code'
+2021-11-27T02:44:17.873778+0300 ERROR An error has been caught in function 'city_choice_keyboard', process 'MainProcess' (1512), thread 'WorkerThread4' (3852):
+Traceback (most recent call last):
+
+  File "C:\PyCharm Community Edition 2020.3.3\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 795, in __call__
+    ret = self.original_func(*self.args, **self.kwargs)
+          |    |              |    |       |    -> {}
+          |    |              |    |       -> <_pydev_bundle.pydev_monkey._NewThreadStartupWithTrace object at 0x00000000040DD8E0>
+          |    |              |    -> ()
+          |    |              -> <_pydev_bundle.pydev_monkey._NewThreadStartupWithTrace object at 0x00000000040DD8E0>
+          |    -> <bound method Thread._bootstrap of <WorkerThread(WorkerThread4, started daemon 3852)>>
+          -> <_pydev_bundle.pydev_monkey._NewThreadStartupWithTrace object at 0x00000000040DD8E0>
+
+  File "C:\Users\Python38\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+    |    -> <function Thread._bootstrap_inner at 0x0000000002A2FC10>
+    -> <WorkerThread(WorkerThread4, started daemon 3852)>
+
+  File "C:\Users\Python38\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+    |    -> <function WorkerThread.run at 0x00000000038210D0>
+    -> <WorkerThread(WorkerThread4, started daemon 3852)>
+
+  File "C:\Users\PycharmProjects\python_basic_diploma\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+    |     |       -> {}
+    |     -> (<telebot.types.Message object at 0x00000000042FFC70>,)
+    -> <function city_choice_keyboard at 0x00000000040E58B0>
+
+> File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 144, in city_choice_keyboard
+    city_list = search_city(city=city)
+                |                -> 'Краснодар'
+                -> <function search_city at 0x0000000004091C10>
+
+  File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\city_id_request.py", line 37, in search_city
+    if response.status_code != 200:
+       -> {'term': 'Краснодар', 'moresuggestions': 10, 'autoSuggestInstance': None, 'trackingID': 'b07815b7361845ccab523e9a8b781a5b', '...
+
+AttributeError: 'dict' object has no attribute 'status_code'
+2021-11-27T02:49:32.282820+0300 INFO User 420616225 used command /lowprice
+2021-11-27T02:49:32.282820+0300 INFO User 420616225 used command /lowprice
+2021-11-27T02:49:36.045035+0300 INFO Make a list of cities for user 420616225
+2021-11-27T02:49:36.045035+0300 INFO Make a list of cities for user 420616225
+2021-11-27T02:49:42.234389+0300 INFO User 420616225 choose city Краснодар
+2021-11-27T02:49:42.234389+0300 INFO User 420616225 choose city Краснодар
+2021-11-27T02:49:45.680586+0300 INFO Ask user 420616225 about hotel photo.
+2021-11-27T02:49:45.680586+0300 INFO Ask user 420616225 about hotel photo.
+2021-11-27T02:49:48.120726+0300 INFO User 420616225 choose request with photo.
+2021-11-27T02:49:48.120726+0300 INFO User 420616225 choose request with photo.
+2021-11-27T02:49:50.453859+0300 INFO Set number of photos from user 420616225 request
+2021-11-27T02:49:50.453859+0300 INFO Set number of photos from user 420616225 request
+2021-11-27T02:50:48.701191+0300 INFO User 420616225 used command /lowprice
+2021-11-27T02:50:48.701191+0300 INFO User 420616225 used command /lowprice
+2021-11-27T02:50:51.675361+0300 INFO Make a list of cities for user 420616225
+2021-11-27T02:50:51.675361+0300 INFO Make a list of cities for user 420616225
+2021-11-27T02:50:56.839656+0300 INFO User 420616225 choose city Краснодар
+2021-11-27T02:50:56.839656+0300 INFO User 420616225 choose city Краснодар
+2021-11-27T02:51:06.567212+0300 INFO Ask user 420616225 about hotel photo.
+2021-11-27T02:51:06.567212+0300 INFO Ask user 420616225 about hotel photo.
+2021-11-27T02:51:08.765338+0300 INFO User 420616225 choose request with photo.
+2021-11-27T02:51:08.765338+0300 INFO User 420616225 choose request with photo.
+2021-11-27T02:51:10.613444+0300 INFO Set number of photos from user 420616225 request
+2021-11-27T02:51:10.613444+0300 INFO Set number of photos from user 420616225 request
+2021-11-27T02:52:52.569275+0300 INFO Table for user 420616225 history created
+2021-11-27T02:52:52.569275+0300 INFO Table for user 420616225 history created
+2021-11-27T02:52:52.697283+0300 INFO User's 420616225 history successfully saved
+2021-11-27T02:52:52.697283+0300 INFO User's 420616225 history successfully saved
+2021-11-27T02:52:52.783288+0300 INFO User 420616225 used command /help
+2021-11-27T02:52:52.783288+0300 INFO User 420616225 used command /help
+2021-11-27T02:52:57.581562+0300 INFO User 420616225 used command /highprice
+2021-11-27T02:52:57.581562+0300 INFO User 420616225 used command /highprice
+2021-11-27T02:53:00.836748+0300 INFO Make a list of cities for user 420616225
+2021-11-27T02:53:00.836748+0300 INFO Make a list of cities for user 420616225

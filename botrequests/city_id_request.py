@@ -30,15 +30,18 @@ def search_city(city: Optional[str]) -> List[dict] or None:
     if re.match(r'^[A-Za-z]', city):
         querystring['locale'] = 'en_US'
     try:
-        response = json.loads(requests.request('GET', url_location,
-                                               headers=headers,
-                                               params=querystring,
-                                               timeout=30).text)
+        response = requests.request('GET',
+                                    url_location,
+                                    headers=headers,
+                                    params=querystring,
+                                    timeout=30)
         if response.status_code != 200:
             return None
 
+        founded_cities = response.json()
         city_list = []
-        for i in response['suggestions'][0]['entities']:
+
+        for i in founded_cities['suggestions'][0]['entities']:
             if i['name'].title() == city.title():
                 caption = re.sub(r"^<span class='highlighted'>|</span>", '', i['caption']).split(',')[:2]
                 city_list.append({i['destinationId']: ','.join(caption)})
