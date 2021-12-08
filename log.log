@@ -1182,7 +1182,7 @@ Traceback (most recent call last):
     -> <function reg_city_choice at 0x00000000038151F0>
 
   File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 97, in reg_city_choice
-    bot.send_message(call.message.chat.id, text=f'Вот что удалось найти: \n{result(call.from_user.id)}')
+    bot.send_message(call.message.chat.id, text=f'пїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ: \n{result(call.from_user.id)}')
     |   |            |    |       |    -> 420616225
     |   |            |    |       -> <telebot.types.Chat object at 0x000000000381BD30>
     |   |            |    -> <telebot.types.Message object at 0x000000000382AD90>
@@ -1221,7 +1221,7 @@ Traceback (most recent call last):
     -> <function reg_city_choice at 0x00000000038151F0>
 
   File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 97, in reg_city_choice
-    bot.send_message(call.message.chat.id, text=f'Вот что удалось найти: \n{result(call.from_user.id)}')
+    bot.send_message(call.message.chat.id, text=f'пїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ: \n{result(call.from_user.id)}')
     |   |            |    |       |    -> 420616225
     |   |            |    |       -> <telebot.types.Chat object at 0x000000000381BD30>
     |   |            |    -> <telebot.types.Message object at 0x000000000382AD90>
@@ -1516,8 +1516,8 @@ sqlite3.OperationalError: no such column: id
 2021-11-12T02:03:13.103224+0300 INFO Table for user 420616225 created
 2021-11-12T02:03:17.704487+0300 INFO Make a list of cities for user 420616225
 2021-11-12T02:03:17.704487+0300 INFO Make a list of cities for user 420616225
-2021-11-12T02:03:21.826723+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-12T02:03:21.826723+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-12T02:03:21.826723+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-12T02:03:21.826723+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-12T02:03:23.896841+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:03:23.896841+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:03:25.041907+0300 INFO User 420616225 choose request with photo.
@@ -1530,8 +1530,8 @@ sqlite3.OperationalError: no such column: id
 2021-11-12T02:04:04.443160+0300 INFO Table for user 420616225 created
 2021-11-12T02:04:06.841297+0300 INFO Make a list of cities for user 420616225
 2021-11-12T02:04:06.841297+0300 INFO Make a list of cities for user 420616225
-2021-11-12T02:04:11.096541+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-12T02:04:11.096541+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-12T02:04:11.096541+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-12T02:04:11.096541+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-12T02:04:13.727691+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:04:13.727691+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:04:15.193775+0300 INFO User 420616225 choose request with photo.
@@ -1544,8 +1544,8 @@ sqlite3.OperationalError: no such column: id
 2021-11-12T02:08:28.943535+0300 INFO Table for user 420616225 created
 2021-11-12T02:08:31.008653+0300 INFO Make a list of cities for user 420616225
 2021-11-12T02:08:31.008653+0300 INFO Make a list of cities for user 420616225
-2021-11-12T02:08:36.102945+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-12T02:08:36.102945+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-12T02:08:36.102945+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-12T02:08:36.102945+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-12T02:08:37.573029+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:08:37.573029+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:08:38.710094+0300 INFO User 420616225 choose request with photo.
@@ -1558,8 +1558,8 @@ sqlite3.OperationalError: no such column: id
 2021-11-12T02:09:43.110777+0300 INFO Table for user 420616225 created
 2021-11-12T02:09:45.036887+0300 INFO Make a list of cities for user 420616225
 2021-11-12T02:09:45.036887+0300 INFO Make a list of cities for user 420616225
-2021-11-12T02:09:50.183182+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-12T02:09:50.183182+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-12T02:09:50.183182+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-12T02:09:50.183182+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-12T02:09:52.118292+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:09:52.118292+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:09:54.579433+0300 INFO User 420616225 choose request with photo.
@@ -1572,8 +1572,8 @@ sqlite3.OperationalError: no such column: id
 2021-11-12T02:10:12.651467+0300 INFO Table for user 420616225 created
 2021-11-12T02:10:14.352564+0300 INFO Make a list of cities for user 420616225
 2021-11-12T02:10:14.352564+0300 INFO Make a list of cities for user 420616225
-2021-11-12T02:10:20.954942+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-12T02:10:20.954942+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-12T02:10:20.954942+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-12T02:10:20.954942+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-12T02:10:22.888052+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:10:22.888052+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:10:24.451142+0300 INFO User 420616225 choose request with photo.
@@ -1586,8 +1586,8 @@ sqlite3.OperationalError: no such column: id
 2021-11-12T02:11:22.646470+0300 INFO Table for user 420616225 created
 2021-11-12T02:11:25.217617+0300 INFO Make a list of cities for user 420616225
 2021-11-12T02:11:25.217617+0300 INFO Make a list of cities for user 420616225
-2021-11-12T02:11:30.229904+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-12T02:11:30.229904+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-12T02:11:30.229904+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-12T02:11:30.229904+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-12T02:11:31.934002+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:11:31.934002+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:11:33.237076+0300 INFO User 420616225 choose request with photo.
@@ -1600,8 +1600,8 @@ sqlite3.OperationalError: no such column: id
 2021-11-12T02:12:03.805824+0300 INFO Table for user 420616225 created
 2021-11-12T02:12:06.448976+0300 INFO Make a list of cities for user 420616225
 2021-11-12T02:12:06.448976+0300 INFO Make a list of cities for user 420616225
-2021-11-12T02:12:12.051296+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-12T02:12:12.051296+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-12T02:12:12.051296+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-12T02:12:12.051296+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-12T02:12:16.395545+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:12:16.395545+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:12:18.029638+0300 INFO User 420616225 choose request with photo.
@@ -1614,8 +1614,8 @@ sqlite3.OperationalError: no such column: id
 2021-11-12T02:18:45.523559+0300 INFO Table for user 420616225 created
 2021-11-12T02:18:47.837606+0300 INFO Make a list of cities for user 420616225
 2021-11-12T02:18:47.837606+0300 INFO Make a list of cities for user 420616225
-2021-11-12T02:18:53.491748+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-12T02:18:53.491748+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-12T02:18:53.491748+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-12T02:18:53.491748+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-12T02:18:55.842799+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:18:55.842799+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:18:57.468858+0300 INFO User 420616225 choose request with photo.
@@ -1628,8 +1628,8 @@ sqlite3.OperationalError: no such column: id
 2021-11-12T02:19:32.670069+0300 INFO Table for user 420616225 created
 2021-11-12T02:19:37.068111+0300 INFO Make a list of cities for user 420616225
 2021-11-12T02:19:37.068111+0300 INFO Make a list of cities for user 420616225
-2021-11-12T02:19:41.274252+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-12T02:19:41.274252+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-12T02:19:41.274252+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-12T02:19:41.274252+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-12T02:19:43.110302+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:19:43.110302+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:19:44.831370+0300 INFO User 420616225 choose request with photo.
@@ -1642,8 +1642,8 @@ sqlite3.OperationalError: no such column: id
 2021-11-12T02:21:35.806980+0300 INFO Table for user 420616225 created
 2021-11-12T02:21:38.202023+0300 INFO Make a list of cities for user 420616225
 2021-11-12T02:21:38.202023+0300 INFO Make a list of cities for user 420616225
-2021-11-12T02:21:43.873095+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-12T02:21:43.873095+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-12T02:21:43.873095+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-12T02:21:43.873095+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-12T02:21:47.761152+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:21:47.761152+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:21:49.120188+0300 INFO User 420616225 choose request with photo.
@@ -1656,8 +1656,8 @@ sqlite3.OperationalError: no such column: id
 2021-11-12T02:22:07.219337+0300 INFO Table for user 420616225 created
 2021-11-12T02:22:09.808388+0300 INFO Make a list of cities for user 420616225
 2021-11-12T02:22:09.808388+0300 INFO Make a list of cities for user 420616225
-2021-11-12T02:22:14.415495+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-12T02:22:14.415495+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-12T02:22:14.415495+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-12T02:22:14.415495+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-12T02:22:17.493571+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:22:17.493571+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:22:19.155641+0300 INFO User 420616225 choose request with photo.
@@ -1670,8 +1670,8 @@ sqlite3.OperationalError: no such column: id
 2021-11-12T02:25:07.669609+0300 INFO Table for user 420616225 created
 2021-11-12T02:25:11.194811+0300 INFO Make a list of cities for user 420616225
 2021-11-12T02:25:11.194811+0300 INFO Make a list of cities for user 420616225
-2021-11-12T02:25:15.863078+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-12T02:25:15.863078+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-12T02:25:15.863078+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-12T02:25:15.863078+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-12T02:25:17.475170+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:25:17.475170+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:25:19.154266+0300 INFO User 420616225 choose request with photo.
@@ -1684,8 +1684,8 @@ sqlite3.OperationalError: no such column: id
 2021-11-12T02:26:13.321364+0300 INFO Table for user 420616225 created
 2021-11-12T02:26:15.983516+0300 INFO Make a list of cities for user 420616225
 2021-11-12T02:26:15.983516+0300 INFO Make a list of cities for user 420616225
-2021-11-12T02:26:18.858681+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-12T02:26:18.858681+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-12T02:26:18.858681+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-12T02:26:18.858681+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-12T02:26:21.086808+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:26:21.086808+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:26:29.232274+0300 INFO User 420616225 choose request with photo.
@@ -1698,8 +1698,8 @@ sqlite3.OperationalError: no such column: id
 2021-11-12T02:27:59.827456+0300 INFO Table for user 420616225 created
 2021-11-12T02:28:05.556783+0300 INFO Make a list of cities for user 420616225
 2021-11-12T02:28:05.556783+0300 INFO Make a list of cities for user 420616225
-2021-11-12T02:28:12.239166+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-12T02:28:12.239166+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-12T02:28:12.239166+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-12T02:28:12.239166+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-12T02:28:14.297283+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:28:14.297283+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:28:15.778368+0300 INFO User 420616225 choose request with photo.
@@ -1712,8 +1712,8 @@ sqlite3.OperationalError: no such column: id
 2021-11-12T02:29:47.074590+0300 INFO Table for user 420616225 created
 2021-11-12T02:29:50.874807+0300 INFO Make a list of cities for user 420616225
 2021-11-12T02:29:50.874807+0300 INFO Make a list of cities for user 420616225
-2021-11-12T02:29:54.996043+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-12T02:29:54.996043+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-12T02:29:54.996043+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-12T02:29:54.996043+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-12T02:29:56.804146+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:29:56.804146+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:29:58.646252+0300 INFO User 420616225 choose request with photo.
@@ -1726,8 +1726,8 @@ sqlite3.OperationalError: no such column: id
 2021-11-12T02:33:34.126577+0300 INFO Table for user 420616225 created
 2021-11-12T02:33:40.196924+0300 INFO Make a list of cities for user 420616225
 2021-11-12T02:33:40.196924+0300 INFO Make a list of cities for user 420616225
-2021-11-12T02:33:47.010313+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-12T02:33:47.010313+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-12T02:33:47.010313+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-12T02:33:47.010313+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-12T02:33:48.309388+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:33:48.309388+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:33:50.192495+0300 INFO User 420616225 choose request with photo.
@@ -1740,8 +1740,8 @@ sqlite3.OperationalError: no such column: id
 2021-11-12T02:34:18.045089+0300 INFO Table for user 420616225 created
 2021-11-12T02:34:20.535231+0300 INFO Make a list of cities for user 420616225
 2021-11-12T02:34:20.535231+0300 INFO Make a list of cities for user 420616225
-2021-11-12T02:34:24.994486+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-12T02:34:24.994486+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-12T02:34:24.994486+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-12T02:34:24.994486+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-12T02:34:26.354564+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:34:26.354564+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:34:27.593635+0300 INFO User 420616225 choose request without photo.
@@ -1752,8 +1752,8 @@ sqlite3.OperationalError: no such column: id
 2021-11-12T02:35:13.225245+0300 INFO Table for user 420616225 created
 2021-11-12T02:35:15.490374+0300 INFO Make a list of cities for user 420616225
 2021-11-12T02:35:15.490374+0300 INFO Make a list of cities for user 420616225
-2021-11-12T02:35:20.341652+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-12T02:35:20.341652+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-12T02:35:20.341652+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-12T02:35:20.341652+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-12T02:35:21.506718+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:35:21.506718+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:35:23.125811+0300 INFO User 420616225 choose request without photo.
@@ -1764,8 +1764,8 @@ sqlite3.OperationalError: no such column: id
 2021-11-12T02:35:45.244076+0300 INFO Table for user 420616225 created
 2021-11-12T02:35:49.345311+0300 INFO Make a list of cities for user 420616225
 2021-11-12T02:35:49.345311+0300 INFO Make a list of cities for user 420616225
-2021-11-12T02:35:53.208532+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-12T02:35:53.208532+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-12T02:35:53.208532+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-12T02:35:53.208532+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-12T02:35:55.315652+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:35:55.315652+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:35:57.423773+0300 INFO User 420616225 choose request without photo.
@@ -1780,8 +1780,8 @@ sqlite3.OperationalError: no such column: id
 2021-11-12T02:39:41.048563+0300 INFO City for user 420616225 is not found
 2021-11-12T02:39:44.324751+0300 INFO Make a list of cities for user 420616225
 2021-11-12T02:39:44.324751+0300 INFO Make a list of cities for user 420616225
-2021-11-12T02:39:48.706001+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-12T02:39:48.706001+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-12T02:39:48.706001+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-12T02:39:48.706001+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-12T02:39:50.434100+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:39:50.434100+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:39:51.341152+0300 INFO User 420616225 choose request without photo.
@@ -1852,8 +1852,8 @@ sqlite3.OperationalError: unrecognized token: "{"
 2021-11-12T02:41:27.152632+0300 INFO Table for user 420616225 created
 2021-11-12T02:41:30.920848+0300 INFO Make a list of cities for user 420616225
 2021-11-12T02:41:30.920848+0300 INFO Make a list of cities for user 420616225
-2021-11-12T02:41:35.968136+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-12T02:41:35.968136+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-12T02:41:35.968136+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-12T02:41:35.968136+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-12T02:41:37.521225+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:41:37.521225+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:41:38.762296+0300 INFO User 420616225 choose request with photo.
@@ -1868,8 +1868,8 @@ sqlite3.OperationalError: unrecognized token: "{"
 2021-11-12T02:42:05.993854+0300 INFO Table for user 420616225 created
 2021-11-12T02:42:09.811072+0300 INFO Make a list of cities for user 420616225
 2021-11-12T02:42:09.811072+0300 INFO Make a list of cities for user 420616225
-2021-11-12T02:42:17.607518+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-12T02:42:17.607518+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-12T02:42:17.607518+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-12T02:42:17.607518+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-12T02:42:22.409793+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:42:22.409793+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:42:23.889877+0300 INFO User 420616225 choose request without photo.
@@ -1880,8 +1880,8 @@ sqlite3.OperationalError: unrecognized token: "{"
 2021-11-12T02:43:14.619779+0300 INFO Table for user 420616225 created
 2021-11-12T02:43:17.141923+0300 INFO Make a list of cities for user 420616225
 2021-11-12T02:43:17.141923+0300 INFO Make a list of cities for user 420616225
-2021-11-12T02:43:21.871194+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-12T02:43:21.871194+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-12T02:43:21.871194+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-12T02:43:21.871194+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-12T02:43:24.476343+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:43:24.476343+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:43:26.098435+0300 INFO User 420616225 choose request with photo.
@@ -1914,8 +1914,8 @@ sqlite3.OperationalError: unrecognized token: "{"
 2021-11-12T02:47:14.441496+0300 INFO City for user 420616225 is not found
 2021-11-12T02:47:23.584019+0300 INFO Make a list of cities for user 420616225
 2021-11-12T02:47:23.584019+0300 INFO Make a list of cities for user 420616225
-2021-11-12T02:47:28.033273+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-12T02:47:28.033273+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-12T02:47:28.033273+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-12T02:47:28.033273+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-12T02:47:31.909495+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:47:31.909495+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T02:47:34.659652+0300 INFO User 420616225 choose request with photo.
@@ -1932,8 +1932,8 @@ sqlite3.OperationalError: unrecognized token: "{"
 2021-11-12T21:00:30.666449+0300 INFO Table for user 420616225 created
 2021-11-12T21:00:33.844563+0300 INFO Make a list of cities for user 420616225
 2021-11-12T21:00:33.844563+0300 INFO Make a list of cities for user 420616225
-2021-11-12T21:00:38.014796+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-12T21:00:38.014796+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-12T21:00:38.014796+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-12T21:00:38.014796+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-12T21:00:44.500995+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T21:00:44.500995+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T21:00:53.338114+0300 INFO User 420616225 choose request without photo.
@@ -1944,8 +1944,8 @@ sqlite3.OperationalError: unrecognized token: "{"
 2021-11-12T22:10:24.499562+0300 INFO Table for user 420616225 created
 2021-11-12T22:10:27.282721+0300 INFO Make a list of cities for user 420616225
 2021-11-12T22:10:27.282721+0300 INFO Make a list of cities for user 420616225
-2021-11-12T22:10:31.106940+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-12T22:10:31.106940+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-12T22:10:31.106940+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-12T22:10:31.106940+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-12T22:10:31.108940+0300 ERROR An error has been caught in function 'reg_city_choice', process 'MainProcess' (7232), thread 'WorkerThread4' (6484):
 Traceback (most recent call last):
 
@@ -1968,10 +1968,10 @@ Traceback (most recent call last):
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 105, in reg_city_choice
     set_info(column='city_id', value=int(call.data.split('|')[1]), user_id=int(call.data.split('|')[2]))
     |                                    |    |    |                           |    |    -> <method 'split' of 'str' objects>
-    |                                    |    |    |                           |    -> 'Москва, Россия|1153093|420616225'
+    |                                    |    |    |                           |    -> 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ|1153093|420616225'
     |                                    |    |    |                           -> <telebot.types.CallbackQuery object at 0x0000000003830D00>
     |                                    |    |    -> <method 'split' of 'str' objects>
-    |                                    |    -> 'Москва, Россия|1153093|420616225'
+    |                                    |    -> 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ|1153093|420616225'
     |                                    -> <telebot.types.CallbackQuery object at 0x0000000003830D00>
     -> <function set_info at 0x00000000037CFAF0>
 
@@ -2005,10 +2005,10 @@ Traceback (most recent call last):
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 105, in reg_city_choice
     set_info(column='city_id', value=int(call.data.split('|')[1]), user_id=int(call.data.split('|')[2]))
     |                                    |    |    |                           |    |    -> <method 'split' of 'str' objects>
-    |                                    |    |    |                           |    -> 'Москва, Россия|1153093|420616225'
+    |                                    |    |    |                           |    -> 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ|1153093|420616225'
     |                                    |    |    |                           -> <telebot.types.CallbackQuery object at 0x0000000003830D00>
     |                                    |    |    -> <method 'split' of 'str' objects>
-    |                                    |    -> 'Москва, Россия|1153093|420616225'
+    |                                    |    -> 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ|1153093|420616225'
     |                                    -> <telebot.types.CallbackQuery object at 0x0000000003830D00>
     -> <function set_info at 0x00000000037CFAF0>
 
@@ -2032,8 +2032,8 @@ sqlite3.OperationalError: no such column: city_id
 2021-11-12T22:15:22.473943+0300 INFO Table for user 420616225 created
 2021-11-12T22:15:29.805047+0300 INFO Make a list of cities for user 420616225
 2021-11-12T22:15:29.805047+0300 INFO Make a list of cities for user 420616225
-2021-11-12T22:15:35.552129+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-12T22:15:35.552129+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-12T22:15:35.552129+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-12T22:15:35.552129+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-12T22:15:42.547179+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T22:15:42.547179+0300 INFO Ask user 420616225 about hotel photo
 2021-11-12T22:15:45.210260+0300 INFO User 420616225 choose request with photo.
@@ -2072,8 +2072,8 @@ sqlite3.OperationalError: no such column: city_id
 2021-11-13T00:42:45.816594+0300 INFO Table for user 420616225 created
 2021-11-13T00:42:48.619636+0300 INFO Make a list of cities for user 420616225
 2021-11-13T00:42:48.619636+0300 INFO Make a list of cities for user 420616225
-2021-11-13T00:42:51.361700+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-13T00:42:51.361700+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-13T00:42:51.361700+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-13T00:42:51.361700+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-13T00:43:39.387004+0300 INFO User 420616225 used command /lowprice
 2021-11-13T00:43:39.387004+0300 INFO User 420616225 used command /lowprice
 2021-11-13T00:43:39.391004+0300 INFO Table for user 420616225 created
@@ -2084,8 +2084,8 @@ sqlite3.OperationalError: no such column: city_id
 2021-11-13T00:47:44.582718+0300 INFO Table for user 420616225 created
 2021-11-13T00:47:47.156866+0300 INFO Make a list of cities for user 420616225
 2021-11-13T00:47:47.156866+0300 INFO Make a list of cities for user 420616225
-2021-11-13T00:47:51.568118+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-13T00:47:51.568118+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-13T00:47:51.568118+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-13T00:47:51.568118+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-13T00:47:55.375336+0300 INFO Ask user 420616225 about hotel photo
 2021-11-13T00:47:55.375336+0300 INFO Ask user 420616225 about hotel photo
 2021-11-13T00:47:56.486399+0300 INFO User 420616225 choose request with photo.
@@ -2098,16 +2098,16 @@ sqlite3.OperationalError: no such column: city_id
 2021-11-13T00:49:55.789223+0300 INFO Table for user 420616225 created
 2021-11-13T00:49:58.059353+0300 INFO Make a list of cities for user 420616225
 2021-11-13T00:49:58.059353+0300 INFO Make a list of cities for user 420616225
-2021-11-13T00:50:04.939746+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-13T00:50:04.939746+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-13T00:50:04.939746+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-13T00:50:04.939746+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-13T00:50:53.140503+0300 INFO User 420616225 used command /lowprice
 2021-11-13T00:50:53.140503+0300 INFO User 420616225 used command /lowprice
 2021-11-13T00:50:53.144503+0300 INFO Table for user 420616225 created
 2021-11-13T00:50:53.144503+0300 INFO Table for user 420616225 created
 2021-11-13T00:50:55.542641+0300 INFO Make a list of cities for user 420616225
 2021-11-13T00:50:55.542641+0300 INFO Make a list of cities for user 420616225
-2021-11-13T00:51:00.465922+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-13T00:51:00.465922+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-13T00:51:00.465922+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-13T00:51:00.465922+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-13T00:51:03.817114+0300 INFO Ask user 420616225 about hotel photo
 2021-11-13T00:51:03.817114+0300 INFO Ask user 420616225 about hotel photo
 2021-11-13T00:51:05.411205+0300 INFO User 420616225 choose request without photo.
@@ -2122,16 +2122,16 @@ sqlite3.OperationalError: no such column: city_id
 2021-11-13T22:36:18.012383+0300 INFO City for user 420616225 is not found
 2021-11-13T22:36:30.634427+0300 INFO Make a list of cities for user 420616225
 2021-11-13T22:36:30.634427+0300 INFO Make a list of cities for user 420616225
-2021-11-13T22:36:35.281505+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-13T22:36:35.281505+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-13T22:36:35.281505+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-13T22:36:35.281505+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-13T22:43:05.795116+0300 INFO User 420616225 used command /lowprice
 2021-11-13T22:43:05.795116+0300 INFO User 420616225 used command /lowprice
 2021-11-13T22:43:05.805116+0300 INFO Table for user 420616225 created
 2021-11-13T22:43:05.805116+0300 INFO Table for user 420616225 created
 2021-11-13T22:43:08.294147+0300 INFO Make a list of cities for user 420616225
 2021-11-13T22:43:08.294147+0300 INFO Make a list of cities for user 420616225
-2021-11-13T22:43:14.777215+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-13T22:43:14.777215+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-13T22:43:14.777215+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-13T22:43:14.777215+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-13T22:43:20.476317+0300 INFO Ask user 420616225 about hotel photo
 2021-11-13T22:43:20.476317+0300 INFO Ask user 420616225 about hotel photo
 2021-11-13T22:43:22.491374+0300 INFO User 420616225 choose request without photo.
@@ -2146,8 +2146,8 @@ sqlite3.OperationalError: no such column: city_id
 2021-11-13T23:29:15.183842+0300 INFO City for user 420616225 is not found
 2021-11-13T23:29:17.108883+0300 INFO Make a list of cities for user 420616225
 2021-11-13T23:29:17.108883+0300 INFO Make a list of cities for user 420616225
-2021-11-13T23:30:26.217061+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-13T23:30:26.217061+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-13T23:30:26.217061+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-13T23:30:26.217061+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-13T23:30:31.694150+0300 INFO Ask user 420616225 about hotel photo
 2021-11-13T23:30:31.694150+0300 INFO Ask user 420616225 about hotel photo
 2021-11-13T23:31:30.546400+0300 INFO User 420616225 used command /lowprice
@@ -2156,8 +2156,8 @@ sqlite3.OperationalError: no such column: city_id
 2021-11-13T23:31:30.548400+0300 INFO Table for user 420616225 created
 2021-11-13T23:31:33.327559+0300 INFO Make a list of cities for user 420616225
 2021-11-13T23:31:33.327559+0300 INFO Make a list of cities for user 420616225
-2021-11-13T23:31:39.022885+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-13T23:31:39.022885+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-13T23:31:39.022885+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-13T23:31:39.022885+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-13T23:31:43.394135+0300 INFO User 420616225 chose wrong number of hotels.
 2021-11-13T23:31:43.394135+0300 INFO User 420616225 chose wrong number of hotels.
 2021-11-13T23:37:56.460660+0300 INFO User 420616225 used command /lowprice
@@ -2166,8 +2166,8 @@ sqlite3.OperationalError: no such column: city_id
 2021-11-13T23:37:56.463660+0300 INFO Table for user 420616225 created
 2021-11-13T23:37:58.985724+0300 INFO Make a list of cities for user 420616225
 2021-11-13T23:37:58.985724+0300 INFO Make a list of cities for user 420616225
-2021-11-13T23:38:03.381822+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-13T23:38:03.381822+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-13T23:38:03.381822+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-13T23:38:03.381822+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-13T23:38:10.417933+0300 INFO Ask user 420616225 about hotel photo
 2021-11-13T23:38:10.417933+0300 INFO Ask user 420616225 about hotel photo
 2021-11-13T23:38:29.230037+0300 INFO User 420616225 used command /lowprice
@@ -2176,8 +2176,8 @@ sqlite3.OperationalError: no such column: city_id
 2021-11-13T23:38:29.232037+0300 INFO Table for user 420616225 created
 2021-11-13T23:38:33.632097+0300 INFO Make a list of cities for user 420616225
 2021-11-13T23:38:33.632097+0300 INFO Make a list of cities for user 420616225
-2021-11-13T23:38:37.829147+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-13T23:38:37.829147+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-13T23:38:37.829147+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-13T23:38:37.829147+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-13T23:38:41.751208+0300 INFO User 420616225 chose wrong number of hotels.
 2021-11-13T23:38:41.751208+0300 INFO User 420616225 chose wrong number of hotels.
 2021-11-13T23:38:41.836213+0300 INFO Ask user 420616225 about hotel photo
@@ -2188,8 +2188,8 @@ sqlite3.OperationalError: no such column: city_id
 2021-11-13T23:39:07.470338+0300 INFO Table for user 420616225 created
 2021-11-13T23:39:10.737391+0300 INFO Make a list of cities for user 420616225
 2021-11-13T23:39:10.737391+0300 INFO Make a list of cities for user 420616225
-2021-11-13T23:39:15.285505+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-13T23:39:15.285505+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-13T23:39:15.285505+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-13T23:39:15.285505+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-13T23:39:27.912713+0300 INFO User 420616225 chose wrong number of hotels.
 2021-11-13T23:39:27.912713+0300 INFO User 420616225 chose wrong number of hotels.
 2021-11-13T23:39:37.772834+0300 INFO User 420616225 chose wrong number of hotels.
@@ -2202,8 +2202,8 @@ sqlite3.OperationalError: no such column: city_id
 2021-11-13T23:43:12.362479+0300 INFO Table for user 420616225 created
 2021-11-13T23:43:15.132585+0300 INFO Make a list of cities for user 420616225
 2021-11-13T23:43:15.132585+0300 INFO Make a list of cities for user 420616225
-2021-11-13T23:43:23.170848+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-13T23:43:23.170848+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-13T23:43:23.170848+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-13T23:43:23.170848+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-13T23:43:25.079933+0300 INFO Ask user 420616225 about hotel photo
 2021-11-13T23:43:25.079933+0300 INFO Ask user 420616225 about hotel photo
 2021-11-13T23:43:26.258986+0300 INFO User 420616225 choose request without photo.
@@ -2218,8 +2218,8 @@ sqlite3.OperationalError: no such column: city_id
 2021-11-13T23:44:33.142188+0300 INFO Table for user 420616225 created
 2021-11-13T23:44:36.562323+0300 INFO Make a list of cities for user 420616225
 2021-11-13T23:44:36.562323+0300 INFO Make a list of cities for user 420616225
-2021-11-13T23:44:41.524536+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-13T23:44:41.524536+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-13T23:44:41.524536+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-13T23:44:41.524536+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-13T23:44:44.929656+0300 INFO User 420616225 chose wrong number of hotels.
 2021-11-13T23:44:44.929656+0300 INFO User 420616225 chose wrong number of hotels.
 2021-11-13T23:46:07.025056+0300 INFO User 420616225 used command /lowprice
@@ -2228,8 +2228,8 @@ sqlite3.OperationalError: no such column: city_id
 2021-11-13T23:46:07.028056+0300 INFO Table for user 420616225 created
 2021-11-13T23:46:08.780133+0300 INFO Make a list of cities for user 420616225
 2021-11-13T23:46:08.780133+0300 INFO Make a list of cities for user 420616225
-2021-11-13T23:46:13.274291+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-13T23:46:13.274291+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-13T23:46:13.274291+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-13T23:46:13.274291+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-13T23:46:15.096364+0300 INFO Ask user 420616225 about hotel photo
 2021-11-13T23:46:15.096364+0300 INFO Ask user 420616225 about hotel photo
 2021-11-13T23:46:17.441464+0300 INFO User 420616225 choose request without photo.
@@ -2244,8 +2244,8 @@ sqlite3.OperationalError: no such column: city_id
 2021-11-14T01:40:13.631695+0300 INFO Table for user 420616225 created
 2021-11-14T01:40:15.966730+0300 INFO Make a list of cities for user 420616225
 2021-11-14T01:40:15.966730+0300 INFO Make a list of cities for user 420616225
-2021-11-14T01:40:23.619833+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-14T01:40:23.619833+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-14T01:40:23.619833+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-14T01:40:23.619833+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-14T01:40:26.085882+0300 INFO User 420616225 chose wrong number of hotels.
 2021-11-14T01:40:26.085882+0300 INFO User 420616225 chose wrong number of hotels.
 2021-11-14T01:40:31.038974+0300 INFO Ask user 420616225 about hotel photo
@@ -2260,8 +2260,8 @@ sqlite3.OperationalError: no such column: city_id
 2021-11-14T01:41:31.605438+0300 INFO Table for user 420616225 created
 2021-11-14T01:41:35.716480+0300 INFO Make a list of cities for user 420616225
 2021-11-14T01:41:35.716480+0300 INFO Make a list of cities for user 420616225
-2021-11-14T01:41:49.757556+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-14T01:41:49.757556+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-14T01:41:49.757556+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-14T01:41:49.757556+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-14T01:41:53.046613+0300 INFO Ask user 420616225 about hotel photo
 2021-11-14T01:41:53.046613+0300 INFO Ask user 420616225 about hotel photo
 2021-11-14T01:41:54.956677+0300 INFO User 420616225 choose request with photo.
@@ -2276,8 +2276,8 @@ sqlite3.OperationalError: no such column: city_id
 2021-11-14T01:46:43.309474+0300 INFO Table for user 420616225 created
 2021-11-14T01:46:45.926517+0300 INFO Make a list of cities for user 420616225
 2021-11-14T01:46:45.926517+0300 INFO Make a list of cities for user 420616225
-2021-11-14T01:46:50.261607+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-14T01:46:50.261607+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-14T01:46:50.261607+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-14T01:46:50.261607+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-14T01:47:02.322734+0300 INFO Ask user 420616225 about hotel photo
 2021-11-14T01:47:02.322734+0300 INFO Ask user 420616225 about hotel photo
 2021-11-14T01:47:04.563821+0300 INFO User 420616225 choose request without photo.
@@ -2288,8 +2288,8 @@ sqlite3.OperationalError: no such column: city_id
 2021-11-14T01:49:57.085488+0300 INFO Table for user 420616225 created
 2021-11-14T01:50:03.064582+0300 INFO Make a list of cities for user 420616225
 2021-11-14T01:50:03.064582+0300 INFO Make a list of cities for user 420616225
-2021-11-14T01:50:17.597675+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-14T01:50:17.597675+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-14T01:50:17.597675+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-14T01:50:17.597675+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-14T01:50:20.456740+0300 INFO Ask user 420616225 about hotel photo
 2021-11-14T01:50:20.456740+0300 INFO Ask user 420616225 about hotel photo
 2021-11-14T01:50:22.650797+0300 INFO User 420616225 choose request without photo.
@@ -2300,8 +2300,8 @@ sqlite3.OperationalError: no such column: city_id
 2021-11-14T01:51:28.784115+0300 INFO Table for user 420616225 created
 2021-11-14T01:51:31.527272+0300 INFO Make a list of cities for user 420616225
 2021-11-14T01:51:31.527272+0300 INFO Make a list of cities for user 420616225
-2021-11-14T01:51:34.995470+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-14T01:51:34.995470+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-14T01:51:34.995470+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-14T01:51:34.995470+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-14T01:51:36.660566+0300 INFO Ask user 420616225 about hotel photo
 2021-11-14T01:51:36.660566+0300 INFO Ask user 420616225 about hotel photo
 2021-11-14T01:51:38.109649+0300 INFO User 420616225 choose request without photo.
@@ -2312,8 +2312,8 @@ sqlite3.OperationalError: no such column: city_id
 2021-11-14T02:02:44.338832+0300 INFO Table for user 420616225 created
 2021-11-14T02:02:47.646894+0300 INFO Make a list of cities for user 420616225
 2021-11-14T02:02:47.646894+0300 INFO Make a list of cities for user 420616225
-2021-11-14T02:02:51.677959+0300 INFO User 420616225 choose city Тамбов, Россия
-2021-11-14T02:02:51.677959+0300 INFO User 420616225 choose city Тамбов, Россия
+2021-11-14T02:02:51.677959+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-14T02:02:51.677959+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-14T02:02:54.778016+0300 INFO Ask user 420616225 about hotel photo
 2021-11-14T02:02:54.778016+0300 INFO Ask user 420616225 about hotel photo
 2021-11-14T02:02:59.039149+0300 INFO User 420616225 choose request without photo.
@@ -2346,9 +2346,9 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 177, in result
     request_result = hotels_info(town_id=info_from_bd[2], count_of_hotels=info_from_bd[4], command=info_from_bd[1])
-                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 15, 0, None, None, None)
-                     |                   |                                -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 15, 0, None, None, None)
-                     |                   -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 15, 0, None, None, None)
+                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 15, 0, None, None, None)
+                     |                   |                                -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 15, 0, None, None, None)
+                     |                   -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 15, 0, None, None, None)
                      -> <function hotels_info at 0x00000000037D15E0>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 75, in hotels_info
@@ -2356,7 +2356,7 @@ Traceback (most recent call last):
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 77, in <listcomp>
     'address': hotel['address']['streetAddress'],
-               -> {'id': 1074274496, 'name': 'Апартаменты на ул. Советской, 167, 1-й этаж', 'starRating': 2.5, 'urls': {}, 'address': {'localit...
+               -> {'id': 1074274496, 'name': 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, 167, 1-пїЅ пїЅпїЅпїЅпїЅ', 'starRating': 2.5, 'urls': {}, 'address': {'localit...
 
 KeyError: 'streetAddress'
 2021-11-14T02:03:02.572183+0300 ERROR An error has been caught in function 'result', process 'MainProcess' (7460), thread 'WorkerThread3' (3436):
@@ -2387,9 +2387,9 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 177, in result
     request_result = hotels_info(town_id=info_from_bd[2], count_of_hotels=info_from_bd[4], command=info_from_bd[1])
-                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 15, 0, None, None, None)
-                     |                   |                                -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 15, 0, None, None, None)
-                     |                   -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 15, 0, None, None, None)
+                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 15, 0, None, None, None)
+                     |                   |                                -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 15, 0, None, None, None)
+                     |                   -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 15, 0, None, None, None)
                      -> <function hotels_info at 0x00000000037D15E0>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 75, in hotels_info
@@ -2397,7 +2397,7 @@ Traceback (most recent call last):
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 77, in <listcomp>
     'address': hotel['address']['streetAddress'],
-               -> {'id': 1074274496, 'name': 'Апартаменты на ул. Советской, 167, 1-й этаж', 'starRating': 2.5, 'urls': {}, 'address': {'localit...
+               -> {'id': 1074274496, 'name': 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, 167, 1-пїЅ пїЅпїЅпїЅпїЅ', 'starRating': 2.5, 'urls': {}, 'address': {'localit...
 
 KeyError: 'streetAddress'
 2021-11-14T02:03:02.722184+0300 ERROR An error has been caught in function 'reg_city_choice', process 'MainProcess' (7460), thread 'WorkerThread3' (3436):
@@ -2468,8 +2468,8 @@ TypeError: 'NoneType' object is not iterable
 2021-11-15T17:31:18.420298+0300 INFO Table for user 420616225 created
 2021-11-15T17:31:22.126427+0300 INFO Make a list of cities for user 420616225
 2021-11-15T17:31:22.126427+0300 INFO Make a list of cities for user 420616225
-2021-11-15T17:31:27.818704+0300 INFO User 420616225 choose city Тамбов, Россия
-2021-11-15T17:31:27.818704+0300 INFO User 420616225 choose city Тамбов, Россия
+2021-11-15T17:31:27.818704+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-15T17:31:27.818704+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-15T17:31:30.329848+0300 INFO Ask user 420616225 about hotel photo
 2021-11-15T17:31:30.329848+0300 INFO Ask user 420616225 about hotel photo
 2021-11-15T17:31:32.538974+0300 INFO User 420616225 choose request without photo.
@@ -2502,9 +2502,9 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 177, in result
     request_result = hotels_info(town_id=info_from_bd[2], count_of_hotels=info_from_bd[4], command=info_from_bd[1])
-                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   |                                -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
+                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   |                                -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
                      -> <function hotels_info at 0x00000000037D05E0>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 75, in hotels_info
@@ -2512,7 +2512,7 @@ Traceback (most recent call last):
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 77, in <listcomp>
     'address': hotel['address']['streetAddress'],
-               -> {'id': 1074133984, 'name': 'Апартаменты на ул. Никифоровской, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'Та...
+               -> {'id': 1074133984, 'name': 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'пїЅпїЅ...
 
 KeyError: 'streetAddress'
 2021-11-15T17:31:37.305176+0300 ERROR An error has been caught in function 'result', process 'MainProcess' (7860), thread 'WorkerThread3' (7704):
@@ -2543,9 +2543,9 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 177, in result
     request_result = hotels_info(town_id=info_from_bd[2], count_of_hotels=info_from_bd[4], command=info_from_bd[1])
-                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   |                                -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
+                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   |                                -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
                      -> <function hotels_info at 0x00000000037D05E0>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 75, in hotels_info
@@ -2553,7 +2553,7 @@ Traceback (most recent call last):
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 77, in <listcomp>
     'address': hotel['address']['streetAddress'],
-               -> {'id': 1074133984, 'name': 'Апартаменты на ул. Никифоровской, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'Та...
+               -> {'id': 1074133984, 'name': 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'пїЅпїЅ...
 
 KeyError: 'streetAddress'
 2021-11-15T17:31:37.483180+0300 ERROR An error has been caught in function 'reg_city_choice', process 'MainProcess' (7860), thread 'WorkerThread3' (7704):
@@ -2624,8 +2624,8 @@ TypeError: 'NoneType' object is not iterable
 2021-11-15T17:32:04.683975+0300 INFO Table for user 420616225 created
 2021-11-15T17:32:07.291060+0300 INFO Make a list of cities for user 420616225
 2021-11-15T17:32:07.291060+0300 INFO Make a list of cities for user 420616225
-2021-11-15T17:32:11.207202+0300 INFO User 420616225 choose city Тамбов, Россия
-2021-11-15T17:32:11.207202+0300 INFO User 420616225 choose city Тамбов, Россия
+2021-11-15T17:32:11.207202+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-15T17:32:11.207202+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-15T17:32:13.018277+0300 INFO Ask user 420616225 about hotel photo
 2021-11-15T17:32:13.018277+0300 INFO Ask user 420616225 about hotel photo
 2021-11-15T17:32:13.784315+0300 INFO User 420616225 choose request without photo.
@@ -2667,9 +2667,9 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 177, in result
     request_result = hotels_info(town_id=info_from_bd[2], count_of_hotels=info_from_bd[4], command=info_from_bd[1])
-                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   |                                -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
+                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   |                                -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
                      -> <function hotels_info at 0x0000000004085A60>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 75, in hotels_info
@@ -2677,7 +2677,7 @@ Traceback (most recent call last):
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 77, in <listcomp>
     'address': hotel['address']['streetAddress'],
-               -> {'id': 1074133984, 'name': 'Апартаменты на ул. Никифоровской, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'Та...
+               -> {'id': 1074133984, 'name': 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'пїЅпїЅ...
 
 KeyError: 'streetAddress'
 2021-11-15T17:32:17.963428+0300 ERROR An error has been caught in function 'result', process 'MainProcess' (7800), thread 'WorkerThread4' (2292):
@@ -2717,9 +2717,9 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 177, in result
     request_result = hotels_info(town_id=info_from_bd[2], count_of_hotels=info_from_bd[4], command=info_from_bd[1])
-                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   |                                -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
+                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   |                                -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
                      -> <function hotels_info at 0x0000000004085A60>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 75, in hotels_info
@@ -2727,7 +2727,7 @@ Traceback (most recent call last):
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 77, in <listcomp>
     'address': hotel['address']['streetAddress'],
-               -> {'id': 1074133984, 'name': 'Апартаменты на ул. Никифоровской, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'Та...
+               -> {'id': 1074133984, 'name': 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'пїЅпїЅ...
 
 KeyError: 'streetAddress'
 2021-11-15T17:32:18.153434+0300 ERROR An error has been caught in function 'reg_city_choice', process 'MainProcess' (7800), thread 'WorkerThread4' (2292):
@@ -2816,8 +2816,8 @@ TypeError: 'NoneType' object is not iterable
 2021-11-15T17:33:19.915096+0300 INFO Table for user 420616225 created
 2021-11-15T17:33:25.703266+0300 INFO Make a list of cities for user 420616225
 2021-11-15T17:33:25.703266+0300 INFO Make a list of cities for user 420616225
-2021-11-15T17:33:30.279404+0300 INFO User 420616225 choose city Тамбов, Россия
-2021-11-15T17:33:30.279404+0300 INFO User 420616225 choose city Тамбов, Россия
+2021-11-15T17:33:30.279404+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-15T17:33:30.279404+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-15T17:33:31.977473+0300 INFO Ask user 420616225 about hotel photo
 2021-11-15T17:33:31.977473+0300 INFO Ask user 420616225 about hotel photo
 2021-11-15T17:33:33.043521+0300 INFO User 420616225 choose request without photo.
@@ -2850,9 +2850,9 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 176, in result
     request_result = hotels_info(town_id=info_from_bd[2], count_of_hotels=info_from_bd[4], command=info_from_bd[1])
-                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   |                                -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
+                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   |                                -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
                      -> <function hotels_info at 0x00000000037D15E0>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 75, in hotels_info
@@ -2860,7 +2860,7 @@ Traceback (most recent call last):
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 77, in <listcomp>
     'address': hotel['address']['streetAddress'],
-               -> {'id': 1074133984, 'name': 'Апартаменты на ул. Никифоровской, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'Та...
+               -> {'id': 1074133984, 'name': 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'пїЅпїЅ...
 
 KeyError: 'streetAddress'
 2021-11-15T17:33:36.737625+0300 ERROR An error has been caught in function 'result', process 'MainProcess' (3480), thread 'WorkerThread3' (7816):
@@ -2891,9 +2891,9 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 176, in result
     request_result = hotels_info(town_id=info_from_bd[2], count_of_hotels=info_from_bd[4], command=info_from_bd[1])
-                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   |                                -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
+                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   |                                -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
                      -> <function hotels_info at 0x00000000037D15E0>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 75, in hotels_info
@@ -2901,7 +2901,7 @@ Traceback (most recent call last):
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 77, in <listcomp>
     'address': hotel['address']['streetAddress'],
-               -> {'id': 1074133984, 'name': 'Апартаменты на ул. Никифоровской, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'Та...
+               -> {'id': 1074133984, 'name': 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'пїЅпїЅ...
 
 KeyError: 'streetAddress'
 2021-11-15T17:33:36.918628+0300 ERROR An error has been caught in function 'reg_city_choice', process 'MainProcess' (3480), thread 'WorkerThread3' (7816):
@@ -2972,8 +2972,8 @@ TypeError: 'NoneType' object is not iterable
 2021-11-15T17:34:07.121493+0300 INFO Table for user 420616225 created
 2021-11-15T17:34:09.837583+0300 INFO Make a list of cities for user 420616225
 2021-11-15T17:34:09.837583+0300 INFO Make a list of cities for user 420616225
-2021-11-15T17:34:14.361740+0300 INFO User 420616225 choose city Тамбов, Россия
-2021-11-15T17:34:14.361740+0300 INFO User 420616225 choose city Тамбов, Россия
+2021-11-15T17:34:14.361740+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-15T17:34:14.361740+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-15T17:34:15.971815+0300 INFO Ask user 420616225 about hotel photo
 2021-11-15T17:34:15.971815+0300 INFO Ask user 420616225 about hotel photo
 2021-11-15T17:34:17.407886+0300 INFO User 420616225 choose request without photo.
@@ -3006,9 +3006,9 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 175, in result
     request_result = hotels_info(town_id=info_from_bd[2], count_of_hotels=info_from_bd[4], command=info_from_bd[1])
-                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   |                                -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
+                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   |                                -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
                      -> <function hotels_info at 0x00000000037D15E0>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 75, in hotels_info
@@ -3016,7 +3016,7 @@ Traceback (most recent call last):
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 77, in <listcomp>
     'address': hotel['address']['streetAddress'],
-               -> {'id': 1074133984, 'name': 'Апартаменты на ул. Никифоровской, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'Та...
+               -> {'id': 1074133984, 'name': 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'пїЅпїЅ...
 
 KeyError: 'streetAddress'
 2021-11-15T17:34:20.648987+0300 ERROR An error has been caught in function 'result', process 'MainProcess' (7316), thread 'WorkerThread4' (4028):
@@ -3047,9 +3047,9 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 175, in result
     request_result = hotels_info(town_id=info_from_bd[2], count_of_hotels=info_from_bd[4], command=info_from_bd[1])
-                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   |                                -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
+                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   |                                -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
                      -> <function hotels_info at 0x00000000037D15E0>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 75, in hotels_info
@@ -3057,7 +3057,7 @@ Traceback (most recent call last):
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 77, in <listcomp>
     'address': hotel['address']['streetAddress'],
-               -> {'id': 1074133984, 'name': 'Апартаменты на ул. Никифоровской, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'Та...
+               -> {'id': 1074133984, 'name': 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'пїЅпїЅ...
 
 KeyError: 'streetAddress'
 2021-11-15T17:39:41.848320+0300 INFO User 420616225 used command /highprice
@@ -3070,8 +3070,8 @@ KeyError: 'streetAddress'
 2021-11-15T17:40:02.304490+0300 INFO City for user 420616225 is not found
 2021-11-15T17:40:05.545676+0300 INFO Make a list of cities for user 420616225
 2021-11-15T17:40:05.545676+0300 INFO Make a list of cities for user 420616225
-2021-11-15T17:40:11.532018+0300 INFO User 420616225 choose city Тамбов, Россия
-2021-11-15T17:40:11.532018+0300 INFO User 420616225 choose city Тамбов, Россия
+2021-11-15T17:40:11.532018+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-15T17:40:11.532018+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-15T17:40:21.061563+0300 INFO Ask user 420616225 about hotel photo
 2021-11-15T17:40:21.061563+0300 INFO Ask user 420616225 about hotel photo
 2021-11-15T17:40:23.554706+0300 INFO User 420616225 choose request without photo.
@@ -3113,9 +3113,9 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 177, in result
     request_result = hotels_info(town_id=info_from_bd[2], count_of_hotels=info_from_bd[4], command=info_from_bd[1])
-                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   |                                -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
+                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   |                                -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
                      -> <function hotels_info at 0x000000000404BA60>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 75, in hotels_info
@@ -3123,7 +3123,7 @@ Traceback (most recent call last):
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 77, in <listcomp>
     'address': hotel['address']['streetAddress'],
-               -> {'id': 1074133984, 'name': 'Апартаменты на ул. Никифоровской, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'Та...
+               -> {'id': 1074133984, 'name': 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'пїЅпїЅ...
 
 KeyError: 'streetAddress'
 2021-11-15T17:40:28.367981+0300 ERROR An error has been caught in function 'result', process 'MainProcess' (7944), thread 'WorkerThread3' (2680):
@@ -3163,9 +3163,9 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 177, in result
     request_result = hotels_info(town_id=info_from_bd[2], count_of_hotels=info_from_bd[4], command=info_from_bd[1])
-                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   |                                -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
+                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   |                                -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
                      -> <function hotels_info at 0x000000000404BA60>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 75, in hotels_info
@@ -3173,7 +3173,7 @@ Traceback (most recent call last):
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 77, in <listcomp>
     'address': hotel['address']['streetAddress'],
-               -> {'id': 1074133984, 'name': 'Апартаменты на ул. Никифоровской, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'Та...
+               -> {'id': 1074133984, 'name': 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'пїЅпїЅ...
 
 KeyError: 'streetAddress'
 2021-11-15T17:40:28.548992+0300 ERROR An error has been caught in function 'reg_city_choice', process 'MainProcess' (7944), thread 'WorkerThread3' (2680):
@@ -3266,8 +3266,8 @@ TypeError: 'NoneType' object is not iterable
 2021-11-15T17:41:01.904899+0300 INFO City for user 420616225 is not found
 2021-11-15T17:41:05.476104+0300 INFO Make a list of cities for user 420616225
 2021-11-15T17:41:05.476104+0300 INFO Make a list of cities for user 420616225
-2021-11-15T17:41:10.050365+0300 INFO User 420616225 choose city Тамбов, Россия
-2021-11-15T17:41:10.050365+0300 INFO User 420616225 choose city Тамбов, Россия
+2021-11-15T17:41:10.050365+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-15T17:41:10.050365+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-15T17:41:11.806466+0300 INFO Ask user 420616225 about hotel photo
 2021-11-15T17:41:11.806466+0300 INFO Ask user 420616225 about hotel photo
 2021-11-15T17:41:13.243548+0300 INFO User 420616225 choose request without photo.
@@ -3309,9 +3309,9 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 177, in result
     request_result = hotels_info(town_id=info_from_bd[2], count_of_hotels=info_from_bd[4], command=info_from_bd[1])
-                     |                   |                                |                        -> (420616225, 'lowprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   |                                -> (420616225, 'lowprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   -> (420616225, 'lowprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
+                     |                   |                                |                        -> (420616225, 'lowprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   |                                -> (420616225, 'lowprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   -> (420616225, 'lowprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
                      -> <function hotels_info at 0x0000000003E42A60>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 75, in hotels_info
@@ -3319,7 +3319,7 @@ Traceback (most recent call last):
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 77, in <listcomp>
     'address': hotel['address']['streetAddress'],
-               -> {'id': 1074267808, 'name': 'Апартаменты на ул. Рылеева 98', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'Тамбов', ...
+               -> {'id': 1074267808, 'name': 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ 98', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'пїЅпїЅпїЅпїЅпїЅпїЅ', ...
 
 KeyError: 'streetAddress'
 2021-11-15T17:41:16.829753+0300 ERROR An error has been caught in function 'result', process 'MainProcess' (3356), thread 'WorkerThread3' (7092):
@@ -3359,9 +3359,9 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 177, in result
     request_result = hotels_info(town_id=info_from_bd[2], count_of_hotels=info_from_bd[4], command=info_from_bd[1])
-                     |                   |                                |                        -> (420616225, 'lowprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   |                                -> (420616225, 'lowprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   -> (420616225, 'lowprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
+                     |                   |                                |                        -> (420616225, 'lowprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   |                                -> (420616225, 'lowprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   -> (420616225, 'lowprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
                      -> <function hotels_info at 0x0000000003E42A60>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 75, in hotels_info
@@ -3369,7 +3369,7 @@ Traceback (most recent call last):
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 77, in <listcomp>
     'address': hotel['address']['streetAddress'],
-               -> {'id': 1074267808, 'name': 'Апартаменты на ул. Рылеева 98', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'Тамбов', ...
+               -> {'id': 1074267808, 'name': 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ 98', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'пїЅпїЅпїЅпїЅпїЅпїЅ', ...
 
 KeyError: 'streetAddress'
 2021-11-15T17:41:20.959989+0300 ERROR An error has been caught in function 'reg_city_choice', process 'MainProcess' (3356), thread 'WorkerThread3' (7092):
@@ -3458,8 +3458,8 @@ TypeError: 'NoneType' object is not iterable
 2021-11-15T17:41:50.744693+0300 INFO Table for user 420616225 created
 2021-11-15T17:41:54.140887+0300 INFO Make a list of cities for user 420616225
 2021-11-15T17:41:54.140887+0300 INFO Make a list of cities for user 420616225
-2021-11-15T17:41:59.057168+0300 INFO User 420616225 choose city Тамбов, Россия
-2021-11-15T17:41:59.057168+0300 INFO User 420616225 choose city Тамбов, Россия
+2021-11-15T17:41:59.057168+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-15T17:41:59.057168+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-15T17:42:00.576255+0300 INFO Ask user 420616225 about hotel photo
 2021-11-15T17:42:00.576255+0300 INFO Ask user 420616225 about hotel photo
 2021-11-15T17:42:02.433361+0300 INFO User 420616225 choose request without photo.
@@ -3492,9 +3492,9 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 177, in result
     request_result = hotels_info(town_id=info_from_bd[2], count_of_hotels=info_from_bd[4], command=info_from_bd[1])
-                     |                   |                                |                        -> (420616225, 'lowprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   |                                -> (420616225, 'lowprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   -> (420616225, 'lowprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
+                     |                   |                                |                        -> (420616225, 'lowprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   |                                -> (420616225, 'lowprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   -> (420616225, 'lowprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
                      -> <function hotels_info at 0x00000000037D15E0>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 75, in hotels_info
@@ -3502,7 +3502,7 @@ Traceback (most recent call last):
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 77, in <listcomp>
     'address': hotel['address']['streetAddress'],
-               -> {'id': 1074267808, 'name': 'Апартаменты на ул. Рылеева 98', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'Тамбов', ...
+               -> {'id': 1074267808, 'name': 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ 98', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'пїЅпїЅпїЅпїЅпїЅпїЅ', ...
 
 KeyError: 'streetAddress'
 2021-11-15T17:42:07.299640+0300 ERROR An error has been caught in function 'result', process 'MainProcess' (4708), thread 'WorkerThread4' (5308):
@@ -3533,9 +3533,9 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 177, in result
     request_result = hotels_info(town_id=info_from_bd[2], count_of_hotels=info_from_bd[4], command=info_from_bd[1])
-                     |                   |                                |                        -> (420616225, 'lowprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   |                                -> (420616225, 'lowprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   -> (420616225, 'lowprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
+                     |                   |                                |                        -> (420616225, 'lowprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   |                                -> (420616225, 'lowprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   -> (420616225, 'lowprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
                      -> <function hotels_info at 0x00000000037D15E0>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 75, in hotels_info
@@ -3543,7 +3543,7 @@ Traceback (most recent call last):
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 77, in <listcomp>
     'address': hotel['address']['streetAddress'],
-               -> {'id': 1074267808, 'name': 'Апартаменты на ул. Рылеева 98', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'Тамбов', ...
+               -> {'id': 1074267808, 'name': 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ 98', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'пїЅпїЅпїЅпїЅпїЅпїЅ', ...
 
 KeyError: 'streetAddress'
 2021-11-15T17:42:07.462649+0300 ERROR An error has been caught in function 'reg_city_choice', process 'MainProcess' (4708), thread 'WorkerThread4' (5308):
@@ -3614,8 +3614,8 @@ TypeError: 'NoneType' object is not iterable
 2021-11-15T18:16:31.620384+0300 INFO Table for user 420616225 created
 2021-11-15T18:16:33.904429+0300 INFO Make a list of cities for user 420616225
 2021-11-15T18:16:33.904429+0300 INFO Make a list of cities for user 420616225
-2021-11-15T18:16:38.769512+0300 INFO User 420616225 choose city Тамбов, Россия
-2021-11-15T18:16:38.769512+0300 INFO User 420616225 choose city Тамбов, Россия
+2021-11-15T18:16:38.769512+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-15T18:16:38.769512+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-15T18:16:40.776565+0300 INFO Ask user 420616225 about hotel photo
 2021-11-15T18:16:40.776565+0300 INFO Ask user 420616225 about hotel photo
 2021-11-15T18:16:41.961604+0300 INFO User 420616225 choose request without photo.
@@ -3648,9 +3648,9 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 177, in result
     request_result = hotels_info(town_id=info_from_bd[2], count_of_hotels=info_from_bd[4], command=info_from_bd[1])
-                     |                   |                                |                        -> (420616225, 'lowprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   |                                -> (420616225, 'lowprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   -> (420616225, 'lowprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
+                     |                   |                                |                        -> (420616225, 'lowprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   |                                -> (420616225, 'lowprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   -> (420616225, 'lowprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
                      -> <function hotels_info at 0x00000000037D15E0>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 75, in hotels_info
@@ -3658,7 +3658,7 @@ Traceback (most recent call last):
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 77, in <listcomp>
     'address': hotel['address']['streetAddress'],
-               -> {'id': 1074267808, 'name': 'Апартаменты на ул. Рылеева 98', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'Тамбов', ...
+               -> {'id': 1074267808, 'name': 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ 98', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'пїЅпїЅпїЅпїЅпїЅпїЅ', ...
 
 KeyError: 'streetAddress'
 2021-11-15T18:16:45.642622+0300 ERROR An error has been caught in function 'result', process 'MainProcess' (5520), thread 'WorkerThread4' (6568):
@@ -3689,9 +3689,9 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 177, in result
     request_result = hotels_info(town_id=info_from_bd[2], count_of_hotels=info_from_bd[4], command=info_from_bd[1])
-                     |                   |                                |                        -> (420616225, 'lowprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   |                                -> (420616225, 'lowprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   -> (420616225, 'lowprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
+                     |                   |                                |                        -> (420616225, 'lowprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   |                                -> (420616225, 'lowprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   -> (420616225, 'lowprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
                      -> <function hotels_info at 0x00000000037D15E0>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 75, in hotels_info
@@ -3699,7 +3699,7 @@ Traceback (most recent call last):
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 77, in <listcomp>
     'address': hotel['address']['streetAddress'],
-               -> {'id': 1074267808, 'name': 'Апартаменты на ул. Рылеева 98', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'Тамбов', ...
+               -> {'id': 1074267808, 'name': 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ 98', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'пїЅпїЅпїЅпїЅпїЅпїЅ', ...
 
 KeyError: 'streetAddress'
 2021-11-15T18:16:46.070627+0300 ERROR An error has been caught in function 'reg_city_choice', process 'MainProcess' (5520), thread 'WorkerThread4' (6568):
@@ -3774,8 +3774,8 @@ UnboundLocalError: local variable 'request_answer' referenced before assignment
 2021-11-15T18:17:49.906869+0300 INFO Table for user 420616225 created
 2021-11-15T18:17:53.605930+0300 INFO Make a list of cities for user 420616225
 2021-11-15T18:17:53.605930+0300 INFO Make a list of cities for user 420616225
-2021-11-15T18:17:58.481993+0300 INFO User 420616225 choose city Тамбов, Россия
-2021-11-15T18:17:58.481993+0300 INFO User 420616225 choose city Тамбов, Россия
+2021-11-15T18:17:58.481993+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-15T18:17:58.481993+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-15T18:18:00.444043+0300 INFO Ask user 420616225 about hotel photo
 2021-11-15T18:18:00.444043+0300 INFO Ask user 420616225 about hotel photo
 2021-11-15T18:18:01.312077+0300 INFO User 420616225 choose request without photo.
@@ -3808,9 +3808,9 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 177, in result
     request_result = hotels_info(town_id=info_from_bd[2], count_of_hotels=info_from_bd[4], command=info_from_bd[1])
-                     |                   |                                |                        -> (420616225, 'lowprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   |                                -> (420616225, 'lowprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   -> (420616225, 'lowprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
+                     |                   |                                |                        -> (420616225, 'lowprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   |                                -> (420616225, 'lowprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   -> (420616225, 'lowprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
                      -> <function hotels_info at 0x00000000037D1700>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 75, in hotels_info
@@ -3818,7 +3818,7 @@ Traceback (most recent call last):
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 77, in <listcomp>
     'address': hotel['address']['streetAddress'],
-               -> {'id': 1074267808, 'name': 'Апартаменты на ул. Рылеева 98', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'Тамбов', ...
+               -> {'id': 1074267808, 'name': 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ 98', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'пїЅпїЅпїЅпїЅпїЅпїЅ', ...
 
 KeyError: 'streetAddress'
 2021-11-15T18:18:04.742106+0300 ERROR An error has been caught in function 'result', process 'MainProcess' (5088), thread 'WorkerThread3' (1860):
@@ -3849,9 +3849,9 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 177, in result
     request_result = hotels_info(town_id=info_from_bd[2], count_of_hotels=info_from_bd[4], command=info_from_bd[1])
-                     |                   |                                |                        -> (420616225, 'lowprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   |                                -> (420616225, 'lowprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   -> (420616225, 'lowprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
+                     |                   |                                |                        -> (420616225, 'lowprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   |                                -> (420616225, 'lowprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   -> (420616225, 'lowprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
                      -> <function hotels_info at 0x00000000037D1700>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 75, in hotels_info
@@ -3859,7 +3859,7 @@ Traceback (most recent call last):
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 77, in <listcomp>
     'address': hotel['address']['streetAddress'],
-               -> {'id': 1074267808, 'name': 'Апартаменты на ул. Рылеева 98', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'Тамбов', ...
+               -> {'id': 1074267808, 'name': 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ 98', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'пїЅпїЅпїЅпїЅпїЅпїЅ', ...
 
 KeyError: 'streetAddress'
 2021-11-15T18:18:05.127110+0300 ERROR An error has been caught in function 'reg_city_choice', process 'MainProcess' (5088), thread 'WorkerThread3' (1860):
@@ -3934,8 +3934,8 @@ UnboundLocalError: local variable 'request_answer' referenced before assignment
 2021-11-15T18:49:24.520949+0300 INFO Table for user 420616225 created
 2021-11-15T18:49:30.357171+0300 INFO Make a list of cities for user 420616225
 2021-11-15T18:49:30.357171+0300 INFO Make a list of cities for user 420616225
-2021-11-15T18:49:35.906489+0300 INFO User 420616225 choose city Тамбов, Россия
-2021-11-15T18:49:35.906489+0300 INFO User 420616225 choose city Тамбов, Россия
+2021-11-15T18:49:35.906489+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-15T18:49:35.906489+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-15T18:49:37.289555+0300 INFO Ask user 420616225 about hotel photo
 2021-11-15T18:49:37.289555+0300 INFO Ask user 420616225 about hotel photo
 2021-11-15T18:49:38.862630+0300 INFO User 420616225 choose request without photo.
@@ -3968,9 +3968,9 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 177, in result
     request_result = hotels_info(town_id=info_from_bd[2], count_of_hotels=info_from_bd[4], command=info_from_bd[1])
-                     |                   |                                |                        -> (420616225, 'lowprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   |                                -> (420616225, 'lowprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   -> (420616225, 'lowprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
+                     |                   |                                |                        -> (420616225, 'lowprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   |                                -> (420616225, 'lowprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   -> (420616225, 'lowprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
                      -> <function hotels_info at 0x00000000037D15E0>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 75, in hotels_info
@@ -3978,7 +3978,7 @@ Traceback (most recent call last):
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 77, in <listcomp>
     'address': hotel['address']['streetAddress'],
-               -> {'id': 1074267808, 'name': 'Апартаменты на ул. Рылеева 98', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'Тамбов', ...
+               -> {'id': 1074267808, 'name': 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ 98', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'пїЅпїЅпїЅпїЅпїЅпїЅ', ...
 
 KeyError: 'streetAddress'
 2021-11-15T18:49:42.654750+0300 ERROR An error has been caught in function 'result', process 'MainProcess' (6420), thread 'WorkerThread4' (4936):
@@ -4009,9 +4009,9 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 177, in result
     request_result = hotels_info(town_id=info_from_bd[2], count_of_hotels=info_from_bd[4], command=info_from_bd[1])
-                     |                   |                                |                        -> (420616225, 'lowprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   |                                -> (420616225, 'lowprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   -> (420616225, 'lowprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
+                     |                   |                                |                        -> (420616225, 'lowprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   |                                -> (420616225, 'lowprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   -> (420616225, 'lowprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
                      -> <function hotels_info at 0x00000000037D15E0>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 75, in hotels_info
@@ -4019,7 +4019,7 @@ Traceback (most recent call last):
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 77, in <listcomp>
     'address': hotel['address']['streetAddress'],
-               -> {'id': 1074267808, 'name': 'Апартаменты на ул. Рылеева 98', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'Тамбов', ...
+               -> {'id': 1074267808, 'name': 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ 98', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'пїЅпїЅпїЅпїЅпїЅпїЅ', ...
 
 KeyError: 'streetAddress'
 2021-11-15T18:54:38.393203+0300 INFO User 420616225 used command /highprice
@@ -4028,8 +4028,8 @@ KeyError: 'streetAddress'
 2021-11-15T18:54:38.396204+0300 INFO Table for user 420616225 created
 2021-11-15T18:54:41.965259+0300 INFO Make a list of cities for user 420616225
 2021-11-15T18:54:41.965259+0300 INFO Make a list of cities for user 420616225
-2021-11-15T18:54:47.551356+0300 INFO User 420616225 choose city Тамбов, Россия
-2021-11-15T18:54:47.551356+0300 INFO User 420616225 choose city Тамбов, Россия
+2021-11-15T18:54:47.551356+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-15T18:54:47.551356+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-15T18:54:49.322457+0300 INFO Ask user 420616225 about hotel photo
 2021-11-15T18:54:49.322457+0300 INFO Ask user 420616225 about hotel photo
 2021-11-15T18:54:51.209564+0300 INFO User 420616225 choose request without photo.
@@ -4062,9 +4062,9 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 177, in result
     request_result = hotels_info(town_id=info_from_bd[2], count_of_hotels=info_from_bd[4], command=info_from_bd[1])
-                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   |                                -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
+                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   |                                -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
                      -> <function hotels_info at 0x00000000037D15E0>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 75, in hotels_info
@@ -4072,7 +4072,7 @@ Traceback (most recent call last):
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 77, in <listcomp>
     'address': hotel['address']['streetAddress'],
-               -> {'id': 1074133984, 'name': 'Апартаменты на ул. Никифоровской, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'Та...
+               -> {'id': 1074133984, 'name': 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'пїЅпїЅ...
 
 KeyError: 'streetAddress'
 2021-11-15T18:54:55.018649+0300 ERROR An error has been caught in function 'result', process 'MainProcess' (8140), thread 'WorkerThread3' (4856):
@@ -4103,9 +4103,9 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 177, in result
     request_result = hotels_info(town_id=info_from_bd[2], count_of_hotels=info_from_bd[4], command=info_from_bd[1])
-                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   |                                -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
+                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   |                                -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
                      -> <function hotels_info at 0x00000000037D15E0>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 75, in hotels_info
@@ -4113,7 +4113,7 @@ Traceback (most recent call last):
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 77, in <listcomp>
     'address': hotel['address']['streetAddress'],
-               -> {'id': 1074133984, 'name': 'Апартаменты на ул. Никифоровской, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'Та...
+               -> {'id': 1074133984, 'name': 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'пїЅпїЅ...
 
 KeyError: 'streetAddress'
 2021-11-15T18:54:55.118649+0300 ERROR An error has been caught in function 'reg_city_choice', process 'MainProcess' (8140), thread 'WorkerThread3' (4856):
@@ -4184,8 +4184,8 @@ TypeError: 'NoneType' object is not iterable
 2021-11-15T18:58:46.080650+0300 INFO Table for user 420616225 created
 2021-11-15T18:58:49.291699+0300 INFO Make a list of cities for user 420616225
 2021-11-15T18:58:49.291699+0300 INFO Make a list of cities for user 420616225
-2021-11-15T18:58:53.580872+0300 INFO User 420616225 choose city Тамбов, Россия
-2021-11-15T18:58:53.580872+0300 INFO User 420616225 choose city Тамбов, Россия
+2021-11-15T18:58:53.580872+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-15T18:58:53.580872+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-15T18:58:56.205021+0300 INFO Ask user 420616225 about hotel photo
 2021-11-15T18:58:56.205021+0300 INFO Ask user 420616225 about hotel photo
 2021-11-15T18:58:57.125074+0300 INFO User 420616225 choose request without photo.
@@ -4218,9 +4218,9 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 177, in result
     request_result = hotels_info(town_id=info_from_bd[2], count_of_hotels=info_from_bd[4], command=info_from_bd[1])
-                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   |                                -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
+                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   |                                -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
                      -> <function hotels_info at 0x00000000037D15E0>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 75, in hotels_info
@@ -4228,7 +4228,7 @@ Traceback (most recent call last):
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 77, in <listcomp>
     'address': hotel['address']['streetAddress'],
-               -> {'id': 1074133984, 'name': 'Апартаменты на ул. Никифоровской, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'Та...
+               -> {'id': 1074133984, 'name': 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'пїЅпїЅ...
 
 KeyError: 'streetAddress'
 2021-11-15T18:59:00.812284+0300 ERROR An error has been caught in function 'result', process 'MainProcess' (6012), thread 'WorkerThread3' (8044):
@@ -4259,9 +4259,9 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 177, in result
     request_result = hotels_info(town_id=info_from_bd[2], count_of_hotels=info_from_bd[4], command=info_from_bd[1])
-                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   |                                -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
+                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   |                                -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
                      -> <function hotels_info at 0x00000000037D15E0>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 75, in hotels_info
@@ -4269,7 +4269,7 @@ Traceback (most recent call last):
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 77, in <listcomp>
     'address': hotel['address']['streetAddress'],
-               -> {'id': 1074133984, 'name': 'Апартаменты на ул. Никифоровской, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'Та...
+               -> {'id': 1074133984, 'name': 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'пїЅпїЅ...
 
 KeyError: 'streetAddress'
 2021-11-15T18:59:01.095300+0300 ERROR An error has been caught in function 'reg_city_choice', process 'MainProcess' (6012), thread 'WorkerThread3' (8044):
@@ -4340,8 +4340,8 @@ TypeError: 'NoneType' object is not iterable
 2021-11-15T19:09:35.341384+0300 INFO Table for user 420616225 created
 2021-11-15T19:09:38.185443+0300 INFO Make a list of cities for user 420616225
 2021-11-15T19:09:38.185443+0300 INFO Make a list of cities for user 420616225
-2021-11-15T19:09:43.654508+0300 INFO User 420616225 choose city Тамбов, Россия
-2021-11-15T19:09:43.654508+0300 INFO User 420616225 choose city Тамбов, Россия
+2021-11-15T19:09:43.654508+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-15T19:09:43.654508+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-15T19:09:45.572550+0300 INFO Ask user 420616225 about hotel photo
 2021-11-15T19:09:45.572550+0300 INFO Ask user 420616225 about hotel photo
 2021-11-15T19:09:46.928617+0300 INFO User 420616225 choose request without photo.
@@ -4374,9 +4374,9 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 177, in result
     request_result = hotels_info(town_id=info_from_bd[2], count_of_hotels=info_from_bd[4], command=info_from_bd[1])
-                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   |                                -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
+                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   |                                -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
                      -> <function hotels_info at 0x00000000037D15E0>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 75, in hotels_info
@@ -4384,7 +4384,7 @@ Traceback (most recent call last):
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 77, in <listcomp>
     'address': hotel['address']['streetAddress'],
-               -> {'id': 1074133984, 'name': 'Апартаменты на ул. Никифоровской, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'Та...
+               -> {'id': 1074133984, 'name': 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'пїЅпїЅ...
 
 KeyError: 'streetAddress'
 2021-11-15T19:09:50.317649+0300 ERROR An error has been caught in function 'result', process 'MainProcess' (420), thread 'WorkerThread4' (1076):
@@ -4415,9 +4415,9 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 177, in result
     request_result = hotels_info(town_id=info_from_bd[2], count_of_hotels=info_from_bd[4], command=info_from_bd[1])
-                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   |                                -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
-                     |                   -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 4, 0, None, None, None)
+                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   |                                -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
+                     |                   -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 4, 0, None, None, None)
                      -> <function hotels_info at 0x00000000037D15E0>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 75, in hotels_info
@@ -4425,7 +4425,7 @@ Traceback (most recent call last):
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 77, in <listcomp>
     'address': hotel['address']['streetAddress'],
-               -> {'id': 1074133984, 'name': 'Апартаменты на ул. Никифоровской, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'Та...
+               -> {'id': 1074133984, 'name': 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'пїЅпїЅ...
 
 KeyError: 'streetAddress'
 2021-11-15T19:09:50.447649+0300 ERROR An error has been caught in function 'reg_city_choice', process 'MainProcess' (420), thread 'WorkerThread4' (1076):
@@ -4496,8 +4496,8 @@ TypeError: 'NoneType' object is not iterable
 2021-11-15T19:09:53.900714+0300 INFO Table for user 420616225 created
 2021-11-15T19:10:04.556002+0300 INFO Make a list of cities for user 420616225
 2021-11-15T19:10:04.556002+0300 INFO Make a list of cities for user 420616225
-2021-11-15T19:10:09.628291+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-15T19:10:09.628291+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-15T19:10:09.628291+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-15T19:10:09.628291+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-15T19:10:11.141377+0300 INFO Ask user 420616225 about hotel photo
 2021-11-15T19:10:11.141377+0300 INFO Ask user 420616225 about hotel photo
 2021-11-15T19:10:12.356447+0300 INFO User 420616225 choose request without photo.
@@ -4615,7 +4615,7 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 75, in city_choice_keyboard
     city_list = search_city(city=city)
-                |                -> 'Москва'
+                |                -> 'пїЅпїЅпїЅпїЅпїЅпїЅ'
                 -> <function search_city at 0x00000000037D0280>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 32, in search_city
@@ -4757,7 +4757,7 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 75, in city_choice_keyboard
     city_list = search_city(city=city)
-                |                -> 'Москва'
+                |                -> 'пїЅпїЅпїЅпїЅпїЅпїЅ'
                 -> <function search_city at 0x00000000037D0280>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 32, in search_city
@@ -4850,8 +4850,8 @@ TypeError: 'NoneType' object is not iterable
 2021-11-15T19:56:02.831962+0300 INFO Table for user 420616225 created
 2021-11-15T19:56:06.459415+0300 INFO Make a list of cities for user 420616225
 2021-11-15T19:56:06.459415+0300 INFO Make a list of cities for user 420616225
-2021-11-15T19:56:10.792080+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-15T19:56:10.792080+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-15T19:56:10.792080+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-15T19:56:10.792080+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-15T19:56:13.118722+0300 INFO Ask user 420616225 about hotel photo
 2021-11-15T19:56:13.118722+0300 INFO Ask user 420616225 about hotel photo
 2021-11-15T19:56:14.233971+0300 INFO User 420616225 choose request without photo.
@@ -4862,8 +4862,8 @@ TypeError: 'NoneType' object is not iterable
 2021-11-15T19:56:48.600313+0300 INFO Table for user 420616225 created
 2021-11-15T19:56:51.710564+0300 INFO Make a list of cities for user 420616225
 2021-11-15T19:56:51.710564+0300 INFO Make a list of cities for user 420616225
-2021-11-15T19:56:56.616831+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-15T19:56:56.616831+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-15T19:56:56.616831+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-15T19:56:56.616831+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-15T19:56:58.377884+0300 INFO Ask user 420616225 about hotel photo
 2021-11-15T19:56:58.377884+0300 INFO Ask user 420616225 about hotel photo
 2021-11-15T19:57:00.409561+0300 INFO User 420616225 choose request without photo.
@@ -4880,8 +4880,8 @@ TypeError: 'NoneType' object is not iterable
 2021-11-16T14:28:38.436175+0300 INFO Table for user 420616225 created
 2021-11-16T14:28:41.387184+0300 INFO Make a list of cities for user 420616225
 2021-11-16T14:28:41.387184+0300 INFO Make a list of cities for user 420616225
-2021-11-16T14:28:45.887197+0300 INFO User 420616225 choose city Ульяновск, Россия
-2021-11-16T14:28:45.887197+0300 INFO User 420616225 choose city Ульяновск, Россия
+2021-11-16T14:28:45.887197+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-16T14:28:45.887197+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-16T14:28:49.877211+0300 INFO Ask user 420616225 about hotel photo
 2021-11-16T14:28:49.877211+0300 INFO Ask user 420616225 about hotel photo
 2021-11-16T14:28:51.821275+0300 INFO User 420616225 choose request without photo.
@@ -4892,8 +4892,8 @@ TypeError: 'NoneType' object is not iterable
 2021-11-16T19:03:01.399648+0300 INFO Table for user 420616225 created
 2021-11-16T19:03:05.228727+0300 INFO Make a list of cities for user 420616225
 2021-11-16T19:03:05.228727+0300 INFO Make a list of cities for user 420616225
-2021-11-16T19:03:10.124939+0300 INFO User 420616225 choose city Тамбов, Россия
-2021-11-16T19:03:10.124939+0300 INFO User 420616225 choose city Тамбов, Россия
+2021-11-16T19:03:10.124939+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-16T19:03:10.124939+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-16T19:03:17.843257+0300 INFO Ask user 420616225 about hotel photo
 2021-11-16T19:03:17.843257+0300 INFO Ask user 420616225 about hotel photo
 2021-11-16T19:03:19.375326+0300 INFO User 420616225 choose request without photo.
@@ -4926,9 +4926,9 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 185, in result
     request_result = hotels_info(town_id=info_from_bd[2], count_of_hotels=info_from_bd[4], command=info_from_bd[1])
-                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 10, 0, None, None, None)
-                     |                   |                                -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 10, 0, None, None, None)
-                     |                   -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 10, 0, None, None, None)
+                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 10, 0, None, None, None)
+                     |                   |                                -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 10, 0, None, None, None)
+                     |                   -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 10, 0, None, None, None)
                      -> <function hotels_info at 0x00000000037D2790>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 87, in hotels_info
@@ -4936,7 +4936,7 @@ Traceback (most recent call last):
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 89, in <listcomp>
     'address': hotel['address']['streetAddress'],
-               -> {'id': 1074133984, 'name': 'Апартаменты на ул. Никифоровской, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'Та...
+               -> {'id': 1074133984, 'name': 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'пїЅпїЅ...
 
 KeyError: 'streetAddress'
 2021-11-16T19:03:27.787528+0300 ERROR An error has been caught in function 'result', process 'MainProcess' (4952), thread 'WorkerThread4' (8100):
@@ -4967,9 +4967,9 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 185, in result
     request_result = hotels_info(town_id=info_from_bd[2], count_of_hotels=info_from_bd[4], command=info_from_bd[1])
-                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 10, 0, None, None, None)
-                     |                   |                                -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 10, 0, None, None, None)
-                     |                   -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 10, 0, None, None, None)
+                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 10, 0, None, None, None)
+                     |                   |                                -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 10, 0, None, None, None)
+                     |                   -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 10, 0, None, None, None)
                      -> <function hotels_info at 0x00000000037D2790>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 87, in hotels_info
@@ -4977,7 +4977,7 @@ Traceback (most recent call last):
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 89, in <listcomp>
     'address': hotel['address']['streetAddress'],
-               -> {'id': 1074133984, 'name': 'Апартаменты на ул. Никифоровской, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'Та...
+               -> {'id': 1074133984, 'name': 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'пїЅпїЅ...
 
 KeyError: 'streetAddress'
 2021-11-16T19:04:05.950548+0300 INFO User 420616225 used command /highprice
@@ -4986,8 +4986,8 @@ KeyError: 'streetAddress'
 2021-11-16T19:04:05.960548+0300 INFO Table for user 420616225 created
 2021-11-16T19:04:08.248634+0300 INFO Make a list of cities for user 420616225
 2021-11-16T19:04:08.248634+0300 INFO Make a list of cities for user 420616225
-2021-11-16T19:04:14.282907+0300 INFO User 420616225 choose city Тамбов, Россия
-2021-11-16T19:04:14.282907+0300 INFO User 420616225 choose city Тамбов, Россия
+2021-11-16T19:04:14.282907+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-16T19:04:14.282907+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-16T19:04:16.778006+0300 INFO Ask user 420616225 about hotel photo
 2021-11-16T19:04:16.778006+0300 INFO Ask user 420616225 about hotel photo
 2021-11-16T19:04:18.702088+0300 INFO User 420616225 choose request without photo.
@@ -5029,9 +5029,9 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 185, in result
     request_result = hotels_info(town_id=info_from_bd[2], count_of_hotels=info_from_bd[4], command=info_from_bd[1])
-                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 10, 0, None, None, None)
-                     |                   |                                -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 10, 0, None, None, None)
-                     |                   -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 10, 0, None, None, None)
+                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 10, 0, None, None, None)
+                     |                   |                                -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 10, 0, None, None, None)
+                     |                   -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 10, 0, None, None, None)
                      -> <function hotels_info at 0x00000000042ADAF0>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 87, in hotels_info
@@ -5039,7 +5039,7 @@ Traceback (most recent call last):
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 89, in <listcomp>
     'address': hotel['address']['streetAddress'],
-               -> {'id': 1074133984, 'name': 'Апартаменты на ул. Никифоровской, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'Та...
+               -> {'id': 1074133984, 'name': 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'пїЅпїЅ...
 
 KeyError: 'streetAddress'
 2021-11-16T19:06:06.994310+0300 ERROR An error has been caught in function 'result', process 'MainProcess' (7408), thread 'WorkerThread3' (7268):
@@ -5079,9 +5079,9 @@ Traceback (most recent call last):
 
 > File "C:/Users/PycharmProjects/python_basic_diploma/main.py", line 185, in result
     request_result = hotels_info(town_id=info_from_bd[2], count_of_hotels=info_from_bd[4], command=info_from_bd[1])
-                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 10, 0, None, None, None)
-                     |                   |                                -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 10, 0, None, None, None)
-                     |                   -> (420616225, 'highprice', 1120829, 'Тамбов, Россия', 10, 0, None, None, None)
+                     |                   |                                |                        -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 10, 0, None, None, None)
+                     |                   |                                -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 10, 0, None, None, None)
+                     |                   -> (420616225, 'highprice', 1120829, 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ', 10, 0, None, None, None)
                      -> <function hotels_info at 0x00000000042ADAF0>
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 87, in hotels_info
@@ -5089,7 +5089,7 @@ Traceback (most recent call last):
 
   File "C:\Users\PycharmProjects\python_basic_diploma\botrequests\api_requests.py", line 89, in <listcomp>
     'address': hotel['address']['streetAddress'],
-               -> {'id': 1074133984, 'name': 'Апартаменты на ул. Никифоровской, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'Та...
+               -> {'id': 1074133984, 'name': 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, 96', 'starRating': 2.5, 'urls': {}, 'address': {'locality': 'пїЅпїЅ...
 
 KeyError: 'streetAddress'
 2021-11-16T19:37:57.165145+0300 INFO User 420616225 used command /highprice
@@ -5098,8 +5098,8 @@ KeyError: 'streetAddress'
 2021-11-16T19:37:57.174145+0300 INFO Table for user 420616225 created
 2021-11-16T19:38:00.397198+0300 INFO Make a list of cities for user 420616225
 2021-11-16T19:38:00.397198+0300 INFO Make a list of cities for user 420616225
-2021-11-16T19:38:20.755738+0300 INFO User 420616225 choose city Тамбов, Россия
-2021-11-16T19:38:20.755738+0300 INFO User 420616225 choose city Тамбов, Россия
+2021-11-16T19:38:20.755738+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-16T19:38:20.755738+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-16T19:38:28.475056+0300 INFO Ask user 420616225 about hotel photo
 2021-11-16T19:38:28.475056+0300 INFO Ask user 420616225 about hotel photo
 2021-11-16T19:38:29.756099+0300 INFO User 420616225 choose request without photo.
@@ -5116,8 +5116,8 @@ KeyError: 'streetAddress'
 2021-11-17T00:30:08.990171+0300 INFO Table for user 420616225 created
 2021-11-17T00:30:14.561490+0300 INFO Make a list of cities for user 420616225
 2021-11-17T00:30:14.561490+0300 INFO Make a list of cities for user 420616225
-2021-11-17T00:34:13.516157+0300 INFO User 420616225 choose city Москва, Россия
-2021-11-17T00:34:13.516157+0300 INFO User 420616225 choose city Москва, Россия
+2021-11-17T00:34:13.516157+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-17T00:34:13.516157+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-17T00:34:16.132307+0300 INFO Ask user 420616225 about hotel photo
 2021-11-17T00:34:16.132307+0300 INFO Ask user 420616225 about hotel photo
 2021-11-17T00:34:17.406379+0300 INFO User 420616225 choose request with photo.
@@ -5130,8 +5130,8 @@ KeyError: 'streetAddress'
 2021-11-17T00:50:30.152369+0300 INFO Table for user 420616225 created
 2021-11-17T00:50:33.823579+0300 INFO Make a list of cities for user 420616225
 2021-11-17T00:50:33.823579+0300 INFO Make a list of cities for user 420616225
-2021-11-17T00:50:37.781806+0300 INFO User 420616225 choose city Тамбов, Россия
-2021-11-17T00:50:37.781806+0300 INFO User 420616225 choose city Тамбов, Россия
+2021-11-17T00:50:37.781806+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-17T00:50:37.781806+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-17T00:50:39.952930+0300 INFO Ask user 420616225 about hotel photo
 2021-11-17T00:50:39.952930+0300 INFO Ask user 420616225 about hotel photo
 2021-11-17T00:50:41.230003+0300 INFO User 420616225 choose request with photo.
@@ -5144,8 +5144,8 @@ KeyError: 'streetAddress'
 2021-11-17T01:33:26.787987+0300 INFO Table for user 420616225 created
 2021-11-17T01:33:30.803216+0300 INFO Make a list of cities for user 420616225
 2021-11-17T01:33:30.803216+0300 INFO Make a list of cities for user 420616225
-2021-11-17T01:33:36.292530+0300 INFO User 420616225 choose city Тамбов, Россия
-2021-11-17T01:33:36.292530+0300 INFO User 420616225 choose city Тамбов, Россия
+2021-11-17T01:33:36.292530+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-17T01:33:36.292530+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-17T01:33:38.487656+0300 INFO Ask user 420616225 about hotel photo
 2021-11-17T01:33:38.487656+0300 INFO Ask user 420616225 about hotel photo
 2021-11-17T01:33:39.592719+0300 INFO User 420616225 choose request with photo.
@@ -5176,8 +5176,8 @@ KeyError: 'streetAddress'
 2021-11-17T17:35:10.286791+0300 INFO City for user 420616225 is not found
 2021-11-17T17:35:24.841346+0300 INFO Make a list of cities for user 420616225
 2021-11-17T17:35:24.841346+0300 INFO Make a list of cities for user 420616225
-2021-11-17T17:35:31.218642+0300 INFO User 420616225 choose city Краснодар, Россия
-2021-11-17T17:35:31.218642+0300 INFO User 420616225 choose city Краснодар, Россия
+2021-11-17T17:35:31.218642+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
+2021-11-17T17:35:31.218642+0300 INFO User 420616225 choose city пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ
 2021-11-17T17:35:35.167767+0300 INFO Ask user 420616225 about hotel photo
 2021-11-17T17:35:35.167767+0300 INFO Ask user 420616225 about hotel photo
 2021-11-17T17:35:37.205816+0300 INFO User 420616225 choose request with photo.
