@@ -22,7 +22,9 @@ def create_db(user_id: int) -> None:
                                                                 price_max INTEGER,
                                                                 distance_min INTEGER,
                                                                 distance_max INTEGER,
-                                                                request_time TEXT
+                                                                request_time TEXT,
+                                                                checkIn TEXT,
+                                                                checkOut TEXT
                                                                 )""")
 
         try:

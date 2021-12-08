@@ -3,7 +3,6 @@ import os
 
 from loguru import logger
 from typing import List
-from datetime import date, timedelta
 from dotenv import load_dotenv
 
 
@@ -20,7 +19,9 @@ def hotels_info_for_bestdeal(town_id: str,
                              min_price: int,
                              max_price: int,
                              min_distance: int,
-                             max_distance: int) -> List[dict] or None:
+                             max_distance: int,
+                             in_date: str,
+                             out_date: str) -> List[dict] or None:
     """
     Функция. Осуществляет запрос к API Hotels для получения списка отелей
     и их характеристик по заданному ID города для команд bestdeal.
@@ -30,6 +31,8 @@ def hotels_info_for_bestdeal(town_id: str,
     :param max_price: максимальная цена проживания.
     :param min_distance: минимальная удаленность отеля от центра города.
     :param max_distance: максимальная удаленность отеля от центра города.
+    :param in_date: дата заезда в отель.
+    :param out_date: дата выезда из отеля.
     :return: список словарей из найденных отелей и их характеристик в формате:
         "ID": "цифровое значение ID города"
         "Наименование": "полное наименование отеля"
@@ -41,8 +44,8 @@ def hotels_info_for_bestdeal(town_id: str,
     url_hotels = 'https://hotels4.p.rapidapi.com/properties/list'
     querystring = {"destinationId": town_id,
                    "pageNumber": "1",
-                   "checkIn": date.today(),
-                   "checkOut": date.today() + timedelta(days=1),
+                   "checkIn": in_date,
+                   "checkOut": out_date,
                    "adults1": "1",
                    "priceMin": min_price,
                    "priceMax": max_price,

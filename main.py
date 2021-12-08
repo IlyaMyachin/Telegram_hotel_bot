@@ -2,7 +2,7 @@ import telebot
 import time
 import os
 import re
-from datetime import datetime
+from datetime import date, datetime
 from botrequests.city_id_request import search_city
 from botrequests.low_high_price import hotels_info_for_low_high_price
 from botrequests.best_deal import hotels_info_for_bestdeal
@@ -11,6 +11,7 @@ from loguru import logger
 from db.chat_users_db import *
 from db.history import *
 from telebot import types
+from telegram_bot_calendar import DetailedTelegramCalendar, LSTEP
 from dotenv import load_dotenv
 
 
@@ -70,6 +71,8 @@ def get_city(message: types.Message) -> None:
     create_db(user_id=chat_id)
     set_info(column='command', value=message.text[1:], user_id=chat_id)
     set_info(column='request_time', value=datetime.today().strftime("%X %x"), user_id=chat_id)
+    set_info(column='checkIn', value=None, user_id=message.chat.id)
+    set_info(column='checkOut', value=None, user_id=message.chat.id)
     msg = bot.send_message(chat_id=message.chat.id, text='Укажите в каком городе ищем отель:')
     bot.register_next_step_handler(message=msg, callback=city_choice_keyboard)
 
@@ -131,7 +134,7 @@ def message_check(message: types.Message) -> None:
 def city_choice_keyboard(message: types.Message) -> None:
     """
     Функция, которая создает клавиатуру для выбора города из списка найденных городов.
-    :param message: сообщение пользователя с название города.
+    :param message: сообщение пользователя с названием города.
     :return: None
     """
     if message.text == '/cancel':
@@ -166,44 +169,6 @@ def city_choice_keyboard(message: types.Message) -> None:
     else:
         bot.delete_message(chat_id=message.chat.id, message_id=message.message_id + 1)
         bot.send_message(chat_id=message.chat.id, text='Выберите город:', reply_markup=markup)
-
-
-@logger.catch
-@bot.callback_query_handler(func=lambda call: True)
-def reg_city_choice(call: types.CallbackQuery) -> None:
-    """
-    Функция. Обрабатывает ответ пользователя, введенный с клавиатуры телеграм бота.
-    :param call: ответ на выбор населенного пункта для поиска, ответ на вопрос о необходимости выгрузки фотографий.
-    :return: None
-    """
-    if call.data == 'No':
-        logger.info(f'User {call.from_user.id} choose request without photo.')
-        bot.delete_message(chat_id=call.from_user.id, message_id=call.message.message_id)
-        set_info(column='photos_count', value=0, user_id=call.from_user.id)
-        result(user_id=call.from_user.id)
-        help_message(call.message)
-    elif call.data == 'Yes':
-        logger.info(f'User {call.from_user.id} choose request with photo.')
-        bot.delete_message(chat_id=call.from_user.id, message_id=call.message.message_id)
-        msg = bot.send_message(chat_id=call.from_user.id, text='Укажите кол-во фотографий (не более 5).')
-        bot.register_next_step_handler(message=msg, callback=add_photo)
-    elif call.data == 'Cancel':
-        bot.delete_message(chat_id=call.from_user.id, message_id=call.message.message_id)
-        cancel_request(call.message)
-        return
-    else:
-        logger.info(f"User {call.from_user.id} choose city {call.data.split('|')[0]}")
-        set_info(column='city_id', value=int(call.data.split('|')[1]), user_id=int(call.data.split('|')[2]))
-        set_info(column='city_name', value=call.data.split('|')[0], user_id=int(call.data.split('|')[2]))
-        bot.send_message(chat_id=call.from_user.id, text=call.data.split('|')[0])
-        command_check = get_info(user_id=call.from_user.id)
-        bot.edit_message_reply_markup(chat_id=call.from_user.id, message_id=call.message.message_id)
-        if command_check[1] == 'bestdeal':
-            msg = bot.send_message(chat_id=call.from_user.id, text='Введите диапазон цен через пробел.')
-            bot.register_next_step_handler(message=msg, callback=price_range)
-        else:
-            msg = bot.send_message(chat_id=call.from_user.id, text='Сколько отелей ищем (не более 25)?')
-            bot.register_next_step_handler(message=msg, callback=get_hotels_count)
 
 
 @logger.catch
@@ -264,7 +229,7 @@ def distance_range(message: types.Message) -> None:
         logger.info(f'User {message.chat.id} input wrong distance range.')
         msg = bot.send_message(chat_id=message.chat.id, text='Диапазон указан некорректно.\n'
                                                              'Укажите минимальное и максимальное '
-                                                             'расстояние через пробел.')
+                                                             'расстояние через пробел (в км).')
         bot.register_next_step_handler(message=msg, callback=distance_range)
         return
 
@@ -313,10 +278,21 @@ def get_hotels_count(message: types.Message) -> None:
         logger.info(f'Ask user {message.chat.id} about hotel photo.')
         chat_id = message.chat.id
         set_info(column='hotels_count', value=message.text, user_id=chat_id)
-        markup = types.InlineKeyboardMarkup(row_width=3)
-        markup.add(telebot.types.InlineKeyboardButton(text='Да', callback_data='Yes'))
-        markup.add(telebot.types.InlineKeyboardButton(text='Нет', callback_data='No'))
-        bot.send_message(chat_id=message.chat.id, text='Загрузить фото отеля?', reply_markup=markup)
+        bot.send_message(chat_id=message.chat.id, text='Укажите дату заезда в отель.')
+        get_check_in_out_date(message)
+
+
+@logger.catch
+def get_check_in_out_date(message: types.Message) -> None:
+    """
+    Функция, которая вызывает календарь для выбора даты заезда в отель.
+    :param message: сообщение с выбором дат.
+    :return: None
+    """
+    calendar, step = DetailedTelegramCalendar().build()
+    bot.send_message(chat_id=message.chat.id,
+                     text=f"Select {LSTEP[step]}",
+                     reply_markup=calendar)
 
 
 @logger.catch
@@ -349,6 +325,89 @@ def add_photo(message: types.Message) -> None:
 
 
 @logger.catch
+@bot.callback_query_handler(func=DetailedTelegramCalendar.func())
+def cal(call: types.CallbackQuery) -> None:
+    """
+    Функция. Принимает и обрабатывает данные календаря. Вносит даты заезда и выезда из отеля в бд.
+    :param call: ответ на выбранные даты.
+    :return: None
+    """
+    choice, key, step = DetailedTelegramCalendar().process(call.data)
+    if not choice and key:
+        bot.edit_message_text(f"Select {LSTEP[step]}",
+                              call.message.chat.id,
+                              call.message.message_id,
+                              reply_markup=key)
+    elif choice:
+        cur_choice = datetime.strptime(str(choice), "%Y-%m-%d").date()
+        bot.delete_message(chat_id=int(call.message.chat.id), message_id=call.message.message_id)
+        if date.today() > choice:
+            bot.send_message(chat_id=call.message.chat.id, text='Нельзя выбрать прошедшую дату.\n'
+                                                                'Выберите дату заезда.')
+            get_check_in_out_date(call.message)
+        elif get_info(call.message.chat.id)[11] is None:
+            bot.send_message(chat_id=call.message.chat.id, text=f"Вы выбрали {choice}")
+            set_info(column='checkIn', value=str(choice), user_id=call.message.chat.id)
+            logger.info(f'User select {call.from_user.id} as IN date.')
+            bot.send_message(chat_id=call.message.chat.id, text='Выберите дату выезда.')
+            get_check_in_out_date(call.message)
+        elif get_info(call.message.chat.id)[12] is None and datetime.strptime(str(get_info(call.message.chat.id)[11]),
+                                                                              "%Y-%m-%d").date() < cur_choice:
+            bot.send_message(chat_id=call.message.chat.id, text=f"Вы выбрали {choice}")
+            set_info(column='checkOut', value=str(choice), user_id=call.message.chat.id)
+            logger.info(f'User select {call.from_user.id} as OUT date.')
+            markup = types.InlineKeyboardMarkup(row_width=3)
+            markup.add(telebot.types.InlineKeyboardButton(text='Да', callback_data='Yes'))
+            markup.add(telebot.types.InlineKeyboardButton(text='Нет', callback_data='No'))
+            bot.send_message(chat_id=call.message.chat.id, text='Загрузить фото отеля?', reply_markup=markup)
+
+        else:
+            bot.send_message(chat_id=call.message.chat.id, text='Дата выезда не может совпадать или быть раньше '
+                                                                'даты заезда.\nВыберите дату заезда.')
+            set_info(column='checkIn', value=None, user_id=call.from_user.id)
+            logger.info(f'User select wrong OUT date, IN date deleted.')
+            get_check_in_out_date(call.message)
+
+
+@logger.catch
+@bot.callback_query_handler(func=lambda call: True)
+def reg_city_choice(call: types.CallbackQuery) -> None:
+    """
+    Функция. Обрабатывает ответ пользователя, введенный с клавиатуры телеграм бота.
+    :param call: ответ на выбор населенного пункта для поиска, ответ на вопрос о необходимости выгрузки фотографий.
+    :return: None
+    """
+    if call.data == 'No':
+        logger.info(f'User {call.from_user.id} choose request without photo.')
+        bot.delete_message(chat_id=call.from_user.id, message_id=call.message.message_id)
+        set_info(column='photos_count', value=0, user_id=call.from_user.id)
+        result(user_id=call.from_user.id)
+        help_message(call.message)
+    elif call.data == 'Yes':
+        logger.info(f'User {call.from_user.id} choose request with photo.')
+        bot.delete_message(chat_id=call.from_user.id, message_id=call.message.message_id)
+        msg = bot.send_message(chat_id=call.from_user.id, text='Укажите кол-во фотографий (не более 5).')
+        bot.register_next_step_handler(message=msg, callback=add_photo)
+    elif call.data == 'Cancel':
+        bot.delete_message(chat_id=call.from_user.id, message_id=call.message.message_id)
+        cancel_request(call.message)
+        return
+    else:
+        logger.info(f"User {call.from_user.id} choose city {call.data.split('|')[0]}")
+        set_info(column='city_id', value=int(call.data.split('|')[1]), user_id=int(call.data.split('|')[2]))
+        set_info(column='city_name', value=call.data.split('|')[0], user_id=int(call.data.split('|')[2]))
+        bot.send_message(chat_id=call.from_user.id, text=call.data.split('|')[0])
+        command_check = get_info(user_id=call.from_user.id)
+        bot.edit_message_reply_markup(chat_id=call.from_user.id, message_id=call.message.message_id)
+        if command_check[1] == 'bestdeal':
+            msg = bot.send_message(chat_id=call.from_user.id, text='Введите диапазон цен через пробел.')
+            bot.register_next_step_handler(message=msg, callback=price_range)
+        else:
+            msg = bot.send_message(chat_id=call.from_user.id, text='Сколько отелей ищем (не более 25)?')
+            bot.register_next_step_handler(message=msg, callback=get_hotels_count)
+
+
+@logger.catch
 def result(user_id) -> None:
     """
     Функция. Осуществляет вывод информации о найденных отелях и их фотографии.
@@ -365,12 +424,16 @@ def result(user_id) -> None:
                                                   min_price=info_from_bd[6],
                                                   max_price=info_from_bd[7],
                                                   min_distance=info_from_bd[8],
-                                                  max_distance=info_from_bd[9]
+                                                  max_distance=info_from_bd[9],
+                                                  in_date=info_from_bd[11],
+                                                  out_date=info_from_bd[12]
                                                   )
     else:
         request_result = hotels_info_for_low_high_price(town_id=info_from_bd[2],
                                                         count_of_hotels=info_from_bd[4],
-                                                        command=info_from_bd[1])
+                                                        command=info_from_bd[1],
+                                                        in_date=info_from_bd[11],
+                                                        out_date=info_from_bd[12])
 
     if request_result is None:
         bot.send_message(chat_id=user_id, text='Не удается получить информацию с сайта.'
@@ -384,9 +447,10 @@ def result(user_id) -> None:
         request_answer = f'Название отеля: {data.get("name")}\n'\
                          f'Адрес: {data.get("address")}\n' \
                          f'Расстояние от центра города: {data.get("distance")}\n' \
-                         f'Цена: {data.get("cur_price")}'
+                         f'Цена: {data.get("cur_price")}\n'\
+                         f'https://ru.hotels.com/ho{data.get("id")}'
         hotels_history_list.append(f'{data.get("name")}')
-        bot.send_message(chat_id=user_id, text=request_answer)
+        bot.send_message(chat_id=user_id, text=request_answer, disable_web_page_preview=True)
         if info_from_bd[5] != 0:
             photos_list = []
             photos = get_photo(hotel_id=data['id'])
@@ -408,7 +472,6 @@ def result(user_id) -> None:
     set_history_info(command_type=str(info_from_bd[1]),
                      request_result=str(hotels_history_list),
                      user_id=user_id)
-
     bot.send_message(chat_id=user_id, text='Поиск завершен.')
 
 
