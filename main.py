@@ -1,26 +1,23 @@
-import telebot
-import time
-import os
 import re
+import time
+import telebot
 
 from datetime import date, datetime
 from telebot import types
 from telegram_bot_calendar import DetailedTelegramCalendar, LSTEP
-from dotenv import load_dotenv
 from loguru import logger
 
 from botrequests.city_id_request import search_city
 from botrequests.low_high_price import hotels_info_for_low_high_price
 from botrequests.best_deal import hotels_info_for_bestdeal
 from botrequests.photo_request import get_photo
-from db.chat_users_db import *
-from db.history import *
-
+from config import TOKEN
+from db.chat_users_db import create_db, set_info, get_info
+from db.history import get_history_info, create_history, set_history_info
 
 logger.add("log.log", format="{time} {level} {message}", level="INFO", rotation="10 MB", compression="zip")
 
-load_dotenv()
-bot = telebot.TeleBot(os.getenv('TOKEN'))
+bot = telebot.TeleBot(TOKEN)
 
 
 @logger.catch
