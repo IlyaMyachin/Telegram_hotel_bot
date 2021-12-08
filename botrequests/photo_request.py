@@ -1,15 +1,9 @@
 import requests
-import os
+
 from loguru import logger
 from typing import List
-from dotenv import load_dotenv
 
-
-load_dotenv()
-headers = {
-    'x-rapidapi-host': "hotels4.p.rapidapi.com",
-    'x-rapidapi-key': os.getenv('API_KEY')
-    }
+from config import headers
 
 
 @logger.catch

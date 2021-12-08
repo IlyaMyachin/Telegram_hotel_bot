@@ -1,5 +1,5 @@
 import sqlite3
-from main import logger
+from loguru import logger
 
 
 @logger.catch

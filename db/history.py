@@ -1,5 +1,5 @@
 import sqlite3
-from main import logger
+from loguru import logger
 
 
 @logger.catch
@@ -65,4 +65,3 @@ def get_history_info(user_id: int) -> list:
             return cursor.fetchall()
     except sqlite3.OperationalError:
         pass
-

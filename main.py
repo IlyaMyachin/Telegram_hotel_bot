@@ -2,17 +2,19 @@ import telebot
 import time
 import os
 import re
+
 from datetime import date, datetime
+from telebot import types
+from telegram_bot_calendar import DetailedTelegramCalendar, LSTEP
+from dotenv import load_dotenv
+from loguru import logger
+
 from botrequests.city_id_request import search_city
 from botrequests.low_high_price import hotels_info_for_low_high_price
 from botrequests.best_deal import hotels_info_for_bestdeal
 from botrequests.photo_request import get_photo
-from loguru import logger
 from db.chat_users_db import *
 from db.history import *
-from telebot import types
-from telegram_bot_calendar import DetailedTelegramCalendar, LSTEP
-from dotenv import load_dotenv
 
 
 logger.add("log.log", format="{time} {level} {message}", level="INFO", rotation="10 MB", compression="zip")
