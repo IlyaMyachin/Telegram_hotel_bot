@@ -1,8 +1,8 @@
 import requests
 import os
+
 from loguru import logger
 from typing import List
-from datetime import date, timedelta
 from dotenv import load_dotenv
 
 
@@ -14,13 +14,19 @@ headers = {
 
 
 @logger.catch
-def hotels_info_for_low_high_price(town_id: str, count_of_hotels: int, command: str) -> List[dict] or None:
+def hotels_info_for_low_high_price(town_id: str,
+                                   count_of_hotels: int,
+                                   command: str,
+                                   in_date: str,
+                                   out_date: str) -> List[dict] or None:
     """
     Функция. Осуществляет запрос к API Hotels для получения списка отелей
     и их характеристик по заданному ID города для команд lowprice и highprice.
     :param town_id: id города, для запроса.
     :param count_of_hotels: количество отелей, которое запросил пользователь.
     :param command: тип запроса, который выбрал пользователь.
+    :param in_date: дата заезда в отель.
+    :param out_date: дата выезда из отеля.
     :return: список словарей из найденных отелей и их характеристик в формате:
         "ID": "цифровое значение ID города"
         "Наименование": "полное наименование отеля"
@@ -33,8 +39,8 @@ def hotels_info_for_low_high_price(town_id: str, count_of_hotels: int, command: 
     querystring = {"destinationId": town_id,
                    "pageNumber": "1",
                    "pageSize": count_of_hotels,
-                   "checkIn": date.today(),
-                   "checkOut": date.today() + timedelta(days=1),
+                   "checkIn": in_date,
+                   "checkOut": out_date,
                    "adults1": "1",
                    "sortOrder": "PRICE",
                    "locale": "ru_RU",
@@ -48,6 +54,10 @@ def hotels_info_for_low_high_price(town_id: str, count_of_hotels: int, command: 
                                     headers=headers,
                                     params=querystring,
                                     timeout=30)
+
+        if response.status_code != 200:
+            return None
+
         founded_hotels = response.json()
         hotels_list = [{'id': hotel['id'],
                         'name': hotel['name'],
@@ -63,6 +73,7 @@ def hotels_info_for_low_high_price(town_id: str, count_of_hotels: int, command: 
                     dicts[key] = 'Информация отсутствует'
 
         return hotels_list
+
     except requests.exceptions.RequestException as e:
-        logger.info(f'{e} exceptions on step "hotels_info"')
+        logger.info(f'{e} exceptions on step "hotels_info_for_low_high_price"')
         return None
